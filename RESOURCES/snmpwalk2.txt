@@ -1,0 +1,599 @@
+
+======
+START
+======
+
+1: genAlarmIndex.5.69.77.49.56.55.6 (integer) 6
+2: genAlarmIndex.5.69.77.49.56.55.18 (integer) 18
+3: genAlarmIndex.6.78.70.80.50.52.56.7 (integer) 7
+4: genAlarmIndex.6.78.70.80.50.52.56.8 (integer) 8
+5: genAlarmIndex.6.78.70.80.50.52.56.9 (integer) 9
+6: genAlarmIndex.6.78.70.80.50.52.56.10 (integer) 10
+7: genAlarmIndex.6.78.70.80.50.52.56.11 (integer) 11
+
+8: genAlarmOrigin.5.69.77.49.56.55.6 (octet string) EM187 [45.4D.31.38.37 (hex)]
+9: genAlarmOrigin.5.69.77.49.56.55.18 (octet string) EM187 [45.4D.31.38.37 (hex)]
+10: genAlarmOrigin.6.78.70.80.50.52.56.7 (octet string) NFP248 [4E.46.50.32.34.38 (hex)]
+11: genAlarmOrigin.6.78.70.80.50.52.56.8 (octet string) NFP248 [4E.46.50.32.34.38 (hex)]
+12: genAlarmOrigin.6.78.70.80.50.52.56.9 (octet string) NFP248 [4E.46.50.32.34.38 (hex)]
+13: genAlarmOrigin.6.78.70.80.50.52.56.10 (octet string) NFP248 [4E.46.50.32.34.38 (hex)]
+14: genAlarmOrigin.6.78.70.80.50.52.56.11 (octet string) NFP248 [4E.46.50.32.34.38 (hex)]
+
+15: genAlarmResourceId.5.69.77.49.56.55.6 (octet string) (zero-length) 
+16: genAlarmResourceId.5.69.77.49.56.55.18 (octet string) em_rc_1_video_input [65.6D.5F.72.63.5F.31.5F.76.69.64.65.6F.5F.69.6E.70.75.74 (hex)]
+17: genAlarmResourceId.6.78.70.80.50.52.56.7 (octet string) LAN/WAN 2 [4C.41.4E.2F.57.41.4E.20.32 (hex)]
+18: genAlarmResourceId.6.78.70.80.50.52.56.8 (octet string) PS2 [50.53.32 (hex)]
+19: genAlarmResourceId.6.78.70.80.50.52.56.9 (octet string) ASI In 1 [41.53.49.20.49.6E.20.31 (hex)]
+20: genAlarmResourceId.6.78.70.80.50.52.56.10 (octet string) LAN/WAN 1 [4C.41.4E.2F.57.41.4E.20.31 (hex)]
+21: genAlarmResourceId.6.78.70.80.50.52.56.11 (octet string) (zero-length) 
+
+22: genAlarmProbableCause.5.69.77.49.56.55.6 (gauge) 1309
+23: genAlarmProbableCause.5.69.77.49.56.55.18 (gauge) 8
+24: genAlarmProbableCause.6.78.70.80.50.52.56.7 (gauge) 1067
+25: genAlarmProbableCause.6.78.70.80.50.52.56.8 (gauge) 78
+26: genAlarmProbableCause.6.78.70.80.50.52.56.9 (gauge) 8
+27: genAlarmProbableCause.6.78.70.80.50.52.56.10 (gauge) 1067
+28: genAlarmProbableCause.6.78.70.80.50.52.56.11 (gauge) 1175
+
+29: genAlarmSpecificProblem.5.69.77.49.56.55.6 (octet string) [Duplicate Channel ID][Duplicate Channel ID] [5B.44.75.70.6C.69.63.61.74.65.20.43.68.61.6E.6E.65.6C.20.49.44.5D.5B.44.75.70.6C.69.63.61.74.65.20.43.68.61.6E.6E.65.6C.20.49.44.5D (hex)]
+30: genAlarmSpecificProblem.5.69.77.49.56.55.18 (octet string) (zero-length) 
+31: genAlarmSpecificProblem.6.78.70.80.50.52.56.7 (octet string) (zero-length) 
+32: genAlarmSpecificProblem.6.78.70.80.50.52.56.8 (octet string) (zero-length) 
+33: genAlarmSpecificProblem.6.78.70.80.50.52.56.9 (octet string) (zero-length) 
+34: genAlarmSpecificProblem.6.78.70.80.50.52.56.10 (octet string) (zero-length) 
+35: genAlarmSpecificProblem.6.78.70.80.50.52.56.11 (octet string) Physical interfaces do not match [50.68.79.73.69.63.61.6C.20.69.6E.74.65.72.66.61.63.65.73.20.64.6F.20.6E.6F.74.20.6D.61.74.63.68 (hex)]
+
+36: genAlarmTime.5.69.77.49.56.55.6 (octet string) 2013-10-10,8:22:46.54,+0:0 [07.DD.0A.0A.08.16.2E.36.2B.00.00 (hex)]
+37: genAlarmTime.5.69.77.49.56.55.18 (octet string) 2013-10-10,10:0:46.47,+0:0 [07.DD.0A.0A.0A.00.2E.2F.2B.00.00 (hex)]
+38: genAlarmTime.6.78.70.80.50.52.56.7 (octet string) 2013-10-10,8:28:16.49,+0:0 [07.DD.0A.0A.08.1C.10.31.2B.00.00 (hex)]
+39: genAlarmTime.6.78.70.80.50.52.56.8 (octet string) 2013-10-10,8:28:16.49,+0:0 [07.DD.0A.0A.08.1C.10.31.2B.00.00 (hex)]
+40: genAlarmTime.6.78.70.80.50.52.56.9 (octet string) 2013-10-10,8:28:16.48,+0:0 [07.DD.0A.0A.08.1C.10.30.2B.00.00 (hex)]
+41: genAlarmTime.6.78.70.80.50.52.56.10 (octet string) 2013-10-10,8:28:16.49,+0:0 [07.DD.0A.0A.08.1C.10.31.2B.00.00 (hex)]
+42: genAlarmTime.6.78.70.80.50.52.56.11 (octet string) 2013-10-10,8:28:16.49,+0:0 [07.DD.0A.0A.08.1C.10.31.2B.00.00 (hex)]
+
+43: genAlarmSeverity.5.69.77.49.56.55.6 (integer) severityMajor(5)
+44: genAlarmSeverity.5.69.77.49.56.55.18 (integer) severityMajor(5)
+45: genAlarmSeverity.6.78.70.80.50.52.56.7 (integer) severityMajor(5)
+46: genAlarmSeverity.6.78.70.80.50.52.56.8 (integer) severityMajor(5)
+47: genAlarmSeverity.6.78.70.80.50.52.56.9 (integer) severityMajor(5)
+48: genAlarmSeverity.6.78.70.80.50.52.56.10 (integer) severityMajor(5)
+49: genAlarmSeverity.6.78.70.80.50.52.56.11 (integer) severityMajor(5)
+
+50: genAlarmCategory.5.69.77.49.56.55.6 (integer) communication(1)
+51: genAlarmCategory.5.69.77.49.56.55.18 (integer) communication(1)
+52: genAlarmCategory.6.78.70.80.50.52.56.7 (integer) communication(1)
+53: genAlarmCategory.6.78.70.80.50.52.56.8 (integer) equipment(4)
+54: genAlarmCategory.6.78.70.80.50.52.56.9 (integer) communication(1)
+55: genAlarmCategory.6.78.70.80.50.52.56.10 (integer) communication(1)
+56: genAlarmCategory.6.78.70.80.50.52.56.11 (integer) processing(3)
+
+57: genAlarmLabel.5.69.77.49.56.55.6 (octet string) Control command conflict: [Duplicate Channel ID][Duplicate Channel ID] [43.6F.6E.74.72.6F.6C.20.63.6F.6D.6D.61.6E.64.20.63.6F.6E.66.6C.69.63.74.3A.20.5B.44.75.70.6C.69.63.61.74.65.20.43.68.61.6E.6E.65.6C.20.49.44.5D.5B.44.75.70.6C.69.63.61.74.65.20.43.68.61.6E.6E.65.6C.20.49.44.5D (hex)]
+58: genAlarmLabel.5.69.77.49.56.55.18 (octet string) Loss of signal [4C.6F.73.73.20.6F.66.20.73.69.67.6E.61.6C (hex)]
+59: genAlarmLabel.6.78.70.80.50.52.56.7 (octet string) Link down [4C.69.6E.6B.20.64.6F.77.6E (hex)]
+60: genAlarmLabel.6.78.70.80.50.52.56.8 (octet string) Power supply failure [50.6F.77.65.72.20.73.75.70.70.6C.79.20.66.61.69.6C.75.72.65 (hex)]
+61: genAlarmLabel.6.78.70.80.50.52.56.9 (octet string) Loss of signal [4C.6F.73.73.20.6F.66.20.73.69.67.6E.61.6C (hex)]
+62: genAlarmLabel.6.78.70.80.50.52.56.10 (octet string) Link down [4C.69.6E.6B.20.64.6F.77.6E (hex)]
+63: genAlarmLabel.6.78.70.80.50.52.56.11 (octet string) Configuration inconsistency: Physical interfaces do not match [43.6F.6E.66.69.67.75.72.61.74.69.6F.6E.20.69.6E.63.6F.6E.73.69.73.74.65.6E.63.79.3A.20.50.68.79.73.69.63.61.6C.20.69.6E.74.65.72.66.61.63.65.73.20.64.6F.20.6E.6F.74.20.6D.61.74.63.68 (hex)]
+
+
+================================================================================================
+
+
+64: genEventRecordId.1 (gauge) 1
+65: genEventRecordId.2 (gauge) 2
+66: genEventRecordId.3 (gauge) 3
+67: genEventRecordId.4 (gauge) 4
+68: genEventRecordId.5 (gauge) 5
+69: genEventRecordId.6 (gauge) 6
+70: genEventRecordId.7 (gauge) 7
+71: genEventRecordId.8 (gauge) 8
+72: genEventRecordId.9 (gauge) 9
+73: genEventRecordId.10 (gauge) 10
+74: genEventRecordId.11 (gauge) 11
+75: genEventRecordId.12 (gauge) 12
+76: genEventRecordId.13 (gauge) 13
+77: genEventRecordId.14 (gauge) 14
+78: genEventRecordId.15 (gauge) 15
+79: genEventRecordId.16 (gauge) 16
+80: genEventRecordId.17 (gauge) 17
+81: genEventRecordId.18 (gauge) 18
+82: genEventRecordId.19 (gauge) 19
+83: genEventRecordId.20 (gauge) 20
+84: genEventRecordId.21 (gauge) 21
+85: genEventRecordId.22 (gauge) 22
+86: genEventRecordId.23 (gauge) 23
+87: genEventRecordId.24 (gauge) 24
+88: genEventRecordId.25 (gauge) 25
+89: genEventRecordId.26 (gauge) 26
+90: genEventRecordId.27 (gauge) 27
+91: genEventRecordId.28 (gauge) 28
+92: genEventRecordId.29 (gauge) 29
+93: genEventRecordId.30 (gauge) 30
+94: genEventRecordId.31 (gauge) 31
+95: genEventRecordId.32 (gauge) 32
+96: genEventRecordId.33 (gauge) 33
+97: genEventRecordId.34 (gauge) 34
+98: genEventRecordId.35 (gauge) 35
+99: genEventRecordId.36 (gauge) 36
+100: genEventRecordId.37 (gauge) 37
+101: genEventRecordId.38 (gauge) 38
+102: genEventRecordId.39 (gauge) 39
+103: genEventRecordId.40 (gauge) 40
+104: genEventRecordId.41 (gauge) 41
+105: genEventRecordId.42 (gauge) 42
+106: genEventRecordId.43 (gauge) 43
+107: genEventRecordId.44 (gauge) 44
+108: genEventRecordId.45 (gauge) 45
+109: genEventRecordId.46 (gauge) 46
+110: genEventRecordId.47 (gauge) 47
+111: genEventRecordId.48 (gauge) 48
+112: genEventType.1 (integer) typeObjectChange(3)
+113: genEventType.2 (integer) typeObjectCreation(1)
+114: genEventType.3 (integer) typeErrorInformation(7)
+115: genEventType.4 (integer) typeActionPerformed(6)
+116: genEventType.5 (integer) typeActionPerformed(6)
+117: genEventType.6 (integer) typeActionPerformed(6)
+118: genEventType.7 (integer) typeActionPerformed(6)
+119: genEventType.8 (integer) typeActionPerformed(6)
+120: genEventType.9 (integer) typeActionPerformed(6)
+121: genEventType.10 (integer) typeObjectCreation(1)
+122: genEventType.11 (integer) typeObjectChange(3)
+123: genEventType.12 (integer) typeObjectChange(3)
+124: genEventType.13 (integer) typeActionPerformed(6)
+125: genEventType.14 (integer) typeAttributeValueChange(4)
+126: genEventType.15 (integer) typeAlarm(5)
+127: genEventType.16 (integer) typeAlarm(5)
+128: genEventType.17 (integer) typeAlarm(5)
+129: genEventType.18 (integer) typeAlarm(5)
+130: genEventType.19 (integer) typeAlarm(5)
+131: genEventType.20 (integer) typeAlarm(5)
+132: genEventType.21 (integer) typeObjectCreation(1)
+133: genEventType.22 (integer) typeObjectChange(3)
+134: genEventType.23 (integer) typeObjectChange(3)
+135: genEventType.24 (integer) typeActionPerformed(6)
+136: genEventType.25 (integer) typeAttributeValueChange(4)
+137: genEventType.26 (integer) typeAlarm(5)
+138: genEventType.27 (integer) typeAlarm(5)
+139: genEventType.28 (integer) typeAlarm(5)
+140: genEventType.29 (integer) typeAlarm(5)
+141: genEventType.30 (integer) typeAlarm(5)
+142: genEventType.31 (integer) typeAlarm(5)
+143: genEventType.32 (integer) typeAlarm(5)
+144: genEventType.33 (integer) typeAlarm(5)
+145: genEventType.34 (integer) typeAlarm(5)
+146: genEventType.35 (integer) typeAlarm(5)
+147: genEventType.36 (integer) typeAlarm(5)
+148: genEventType.37 (integer) typeAlarm(5)
+149: genEventType.38 (integer) typeAlarm(5)
+150: genEventType.39 (integer) typeAlarm(5)
+151: genEventType.40 (integer) typeAlarm(5)
+152: genEventType.41 (integer) typeAlarm(5)
+153: genEventType.42 (integer) typeAlarm(5)
+154: genEventType.43 (integer) typeAlarm(5)
+155: genEventType.44 (integer) typeAlarm(5)
+156: genEventType.45 (integer) typeAlarm(5)
+157: genEventType.46 (integer) typeAlarm(5)
+158: genEventType.47 (integer) typeAlarm(5)
+159: genEventType.48 (integer) typeAlarm(5)
+160: genEventTime.1 (octet string) 2013-10-10,8:11:7.61,+0:0 [07.DD.0A.0A.08.0B.07.3D.2B.00.00 (hex)]
+161: genEventTime.2 (octet string) 2013-10-10,8:11:10.96,+0:0 [07.DD.0A.0A.08.0B.0A.60.2B.00.00 (hex)]
+162: genEventTime.3 (octet string) 2013-10-10,8:11:28.0,+0:0 [07.DD.0A.0A.08.0B.1C.00.2B.00.00 (hex)]
+163: genEventTime.4 (octet string) 2013-10-10,8:11:28.0,+0:0 [07.DD.0A.0A.08.0B.1C.00.2B.00.00 (hex)]
+164: genEventTime.5 (octet string) 2013-10-10,8:11:28.0,+0:0 [07.DD.0A.0A.08.0B.1C.00.2B.00.00 (hex)]
+165: genEventTime.6 (octet string) 2013-10-10,8:11:28.0,+0:0 [07.DD.0A.0A.08.0B.1C.00.2B.00.00 (hex)]
+166: genEventTime.7 (octet string) 2013-10-10,8:11:28.0,+0:0 [07.DD.0A.0A.08.0B.1C.00.2B.00.00 (hex)]
+167: genEventTime.8 (octet string) 2013-10-10,8:11:28.0,+0:0 [07.DD.0A.0A.08.0B.1C.00.2B.00.00 (hex)]
+168: genEventTime.9 (octet string) 2013-10-10,8:11:28.0,+0:0 [07.DD.0A.0A.08.0B.1C.00.2B.00.00 (hex)]
+169: genEventTime.10 (octet string) 2013-10-10,8:22:40.96,+0:0 [07.DD.0A.0A.08.16.28.60.2B.00.00 (hex)]
+170: genEventTime.11 (octet string) 2013-10-10,8:22:41.5,+0:0 [07.DD.0A.0A.08.16.29.05.2B.00.00 (hex)]
+171: genEventTime.12 (octet string) 2013-10-10,8:22:41.7,+0:0 [07.DD.0A.0A.08.16.29.07.2B.00.00 (hex)]
+172: genEventTime.13 (octet string) 2013-10-10,8:22:41.0,+0:0 [07.DD.0A.0A.08.16.29.00.2B.00.00 (hex)]
+173: genEventTime.14 (octet string) 2013-10-10,8:22:41.0,+0:0 [07.DD.0A.0A.08.16.29.00.2B.00.00 (hex)]
+174: genEventTime.15 (octet string) 2013-10-10,8:22:46.54,+0:0 [07.DD.0A.0A.08.16.2E.36.2B.00.00 (hex)]
+175: genEventTime.16 (octet string) 2013-10-10,8:22:46.54,+0:0 [07.DD.0A.0A.08.16.2E.36.2B.00.00 (hex)]
+176: genEventTime.17 (octet string) 2013-10-10,8:22:46.54,+0:0 [07.DD.0A.0A.08.16.2E.36.2B.00.00 (hex)]
+177: genEventTime.18 (octet string) 2013-10-10,8:22:46.54,+0:0 [07.DD.0A.0A.08.16.2E.36.2B.00.00 (hex)]
+178: genEventTime.19 (octet string) 2013-10-10,8:22:46.54,+0:0 [07.DD.0A.0A.08.16.2E.36.2B.00.00 (hex)]
+179: genEventTime.20 (octet string) 2013-10-10,8:22:46.54,+0:0 [07.DD.0A.0A.08.16.2E.36.2B.00.00 (hex)]
+180: genEventTime.21 (octet string) 2013-10-10,8:28:11.40,+0:0 [07.DD.0A.0A.08.1C.0B.28.2B.00.00 (hex)]
+181: genEventTime.22 (octet string) 2013-10-10,8:28:11.45,+0:0 [07.DD.0A.0A.08.1C.0B.2D.2B.00.00 (hex)]
+182: genEventTime.23 (octet string) 2013-10-10,8:28:11.45,+0:0 [07.DD.0A.0A.08.1C.0B.2D.2B.00.00 (hex)]
+183: genEventTime.24 (octet string) 2013-10-10,8:28:12.0,+0:0 [07.DD.0A.0A.08.1C.0C.00.2B.00.00 (hex)]
+184: genEventTime.25 (octet string) 2013-10-10,8:28:12.0,+0:0 [07.DD.0A.0A.08.1C.0C.00.2B.00.00 (hex)]
+185: genEventTime.26 (octet string) 2013-10-10,8:28:16.49,+0:0 [07.DD.0A.0A.08.1C.10.31.2B.00.00 (hex)]
+186: genEventTime.27 (octet string) 2013-10-10,8:28:16.49,+0:0 [07.DD.0A.0A.08.1C.10.31.2B.00.00 (hex)]
+187: genEventTime.28 (octet string) 2013-10-10,8:28:16.48,+0:0 [07.DD.0A.0A.08.1C.10.30.2B.00.00 (hex)]
+188: genEventTime.29 (octet string) 2013-10-10,8:28:16.49,+0:0 [07.DD.0A.0A.08.1C.10.31.2B.00.00 (hex)]
+189: genEventTime.30 (octet string) 2013-10-10,8:28:16.49,+0:0 [07.DD.0A.0A.08.1C.10.31.2B.00.00 (hex)]
+190: genEventTime.31 (octet string) 2013-10-10,9:54:34.46,+0:0 [07.DD.0A.0A.09.36.22.2E.2B.00.00 (hex)]
+191: genEventTime.32 (octet string) 2013-10-10,8:22:46.54,+0:0 [07.DD.0A.0A.08.16.2E.36.2B.00.00 (hex)]
+192: genEventTime.33 (octet string) 2013-10-10,8:22:46.54,+0:0 [07.DD.0A.0A.08.16.2E.36.2B.00.00 (hex)]
+193: genEventTime.34 (octet string) 2013-10-10,8:22:46.54,+0:0 [07.DD.0A.0A.08.16.2E.36.2B.00.00 (hex)]
+194: genEventTime.35 (octet string) 2013-10-10,8:22:46.54,+0:0 [07.DD.0A.0A.08.16.2E.36.2B.00.00 (hex)]
+195: genEventTime.36 (octet string) 2013-10-10,8:22:46.54,+0:0 [07.DD.0A.0A.08.16.2E.36.2B.00.00 (hex)]
+196: genEventTime.37 (octet string) 2013-10-10,9:54:34.46,+0:0 [07.DD.0A.0A.09.36.22.2E.2B.00.00 (hex)]
+197: genEventTime.38 (octet string) 2013-10-10,9:55:28.47,+0:0 [07.DD.0A.0A.09.37.1C.2F.2B.00.00 (hex)]
+198: genEventTime.39 (octet string) 2013-10-10,9:55:28.47,+0:0 [07.DD.0A.0A.09.37.1C.2F.2B.00.00 (hex)]
+199: genEventTime.40 (octet string) 2013-10-10,9:55:28.48,+0:0 [07.DD.0A.0A.09.37.1C.30.2B.00.00 (hex)]
+200: genEventTime.41 (octet string) 2013-10-10,9:55:28.47,+0:0 [07.DD.0A.0A.09.37.1C.2F.2B.00.00 (hex)]
+201: genEventTime.42 (octet string) 2013-10-10,9:55:28.47,+0:0 [07.DD.0A.0A.09.37.1C.2F.2B.00.00 (hex)]
+202: genEventTime.43 (octet string) 2013-10-10,10:0:46.47,+0:0 [07.DD.0A.0A.0A.00.2E.2F.2B.00.00 (hex)]
+203: genEventTime.44 (octet string) 2013-10-10,9:55:28.47,+0:0 [07.DD.0A.0A.09.37.1C.2F.2B.00.00 (hex)]
+204: genEventTime.45 (octet string) 2013-10-10,9:55:28.47,+0:0 [07.DD.0A.0A.09.37.1C.2F.2B.00.00 (hex)]
+205: genEventTime.46 (octet string) 2013-10-10,9:55:28.48,+0:0 [07.DD.0A.0A.09.37.1C.30.2B.00.00 (hex)]
+206: genEventTime.47 (octet string) 2013-10-10,9:55:28.47,+0:0 [07.DD.0A.0A.09.37.1C.2F.2B.00.00 (hex)]
+207: genEventTime.48 (octet string) 2013-10-10,9:55:28.47,+0:0 [07.DD.0A.0A.09.37.1C.2F.2B.00.00 (hex)]
+208: genEventOrigin.1 (octet string) XMS Server [58.4D.53.20.53.65.72.76.65.72 (hex)]
+209: genEventOrigin.2 (octet string) XMS Server [58.4D.53.20.53.65.72.76.65.72 (hex)]
+210: genEventOrigin.3 (octet string) XMU_01 [58.4D.55.5F.30.31 (hex)]
+211: genEventOrigin.4 (octet string) XMU_01 [58.4D.55.5F.30.31 (hex)]
+212: genEventOrigin.5 (octet string) XMU_01 [58.4D.55.5F.30.31 (hex)]
+213: genEventOrigin.6 (octet string) XMU_01 [58.4D.55.5F.30.31 (hex)]
+214: genEventOrigin.7 (octet string) XMU_01 [58.4D.55.5F.30.31 (hex)]
+215: genEventOrigin.8 (octet string) XMU_01 [58.4D.55.5F.30.31 (hex)]
+216: genEventOrigin.9 (octet string) XMU_01 [58.4D.55.5F.30.31 (hex)]
+217: genEventOrigin.10 (octet string) EM187 [45.4D.31.38.37 (hex)]
+218: genEventOrigin.11 (octet string) EM187 [45.4D.31.38.37 (hex)]
+219: genEventOrigin.12 (octet string) EM187 [45.4D.31.38.37 (hex)]
+220: genEventOrigin.13 (octet string) XMU_01 [58.4D.55.5F.30.31 (hex)]
+221: genEventOrigin.14 (octet string) EM187 [45.4D.31.38.37 (hex)]
+222: genEventOrigin.15 (octet string) EM187 [45.4D.31.38.37 (hex)]
+223: genEventOrigin.16 (octet string) EM187 [45.4D.31.38.37 (hex)]
+224: genEventOrigin.17 (octet string) EM187 [45.4D.31.38.37 (hex)]
+225: genEventOrigin.18 (octet string) EM187 [45.4D.31.38.37 (hex)]
+226: genEventOrigin.19 (octet string) EM187 [45.4D.31.38.37 (hex)]
+227: genEventOrigin.20 (octet string) EM187 [45.4D.31.38.37 (hex)]
+228: genEventOrigin.21 (octet string) NFP248 [4E.46.50.32.34.38 (hex)]
+229: genEventOrigin.22 (octet string) NFP248 [4E.46.50.32.34.38 (hex)]
+230: genEventOrigin.23 (octet string) NFP248 [4E.46.50.32.34.38 (hex)]
+231: genEventOrigin.24 (octet string) XMU_01 [58.4D.55.5F.30.31 (hex)]
+232: genEventOrigin.25 (octet string) NFP248 [4E.46.50.32.34.38 (hex)]
+233: genEventOrigin.26 (octet string) NFP248 [4E.46.50.32.34.38 (hex)]
+234: genEventOrigin.27 (octet string) NFP248 [4E.46.50.32.34.38 (hex)]
+235: genEventOrigin.28 (octet string) NFP248 [4E.46.50.32.34.38 (hex)]
+236: genEventOrigin.29 (octet string) NFP248 [4E.46.50.32.34.38 (hex)]
+237: genEventOrigin.30 (octet string) NFP248 [4E.46.50.32.34.38 (hex)]
+238: genEventOrigin.31 (octet string) EM187 [45.4D.31.38.37 (hex)]
+239: genEventOrigin.32 (octet string) EM187 [45.4D.31.38.37 (hex)]
+240: genEventOrigin.33 (octet string) EM187 [45.4D.31.38.37 (hex)]
+241: genEventOrigin.34 (octet string) EM187 [45.4D.31.38.37 (hex)]
+242: genEventOrigin.35 (octet string) EM187 [45.4D.31.38.37 (hex)]
+243: genEventOrigin.36 (octet string) EM187 [45.4D.31.38.37 (hex)]
+244: genEventOrigin.37 (octet string) EM187 [45.4D.31.38.37 (hex)]
+245: genEventOrigin.38 (octet string) EM187 [45.4D.31.38.37 (hex)]
+246: genEventOrigin.39 (octet string) EM187 [45.4D.31.38.37 (hex)]
+247: genEventOrigin.40 (octet string) EM187 [45.4D.31.38.37 (hex)]
+248: genEventOrigin.41 (octet string) EM187 [45.4D.31.38.37 (hex)]
+249: genEventOrigin.42 (octet string) EM187 [45.4D.31.38.37 (hex)]
+250: genEventOrigin.43 (octet string) EM187 [45.4D.31.38.37 (hex)]
+251: genEventOrigin.44 (octet string) EM187 [45.4D.31.38.37 (hex)]
+252: genEventOrigin.45 (octet string) EM187 [45.4D.31.38.37 (hex)]
+253: genEventOrigin.46 (octet string) EM187 [45.4D.31.38.37 (hex)]
+254: genEventOrigin.47 (octet string) EM187 [45.4D.31.38.37 (hex)]
+255: genEventOrigin.48 (octet string) EM187 [45.4D.31.38.37 (hex)]
+256: genEventResourceId.1 (octet string) (zero-length) 
+257: genEventResourceId.2 (octet string) (zero-length) 
+258: genEventResourceId.3 (octet string) (zero-length) 
+259: genEventResourceId.4 (octet string) (zero-length) 
+260: genEventResourceId.5 (octet string) (zero-length) 
+261: genEventResourceId.6 (octet string) (zero-length) 
+262: genEventResourceId.7 (octet string) (zero-length) 
+263: genEventResourceId.8 (octet string) (zero-length) 
+264: genEventResourceId.9 (octet string) (zero-length) 
+265: genEventResourceId.10 (octet string) (zero-length) 
+266: genEventResourceId.11 (octet string) (zero-length) 
+267: genEventResourceId.12 (octet string) (zero-length) 
+268: genEventResourceId.13 (octet string) (zero-length) 
+269: genEventResourceId.14 (octet string) (zero-length) 
+270: genEventResourceId.15 (octet string) em_rc_1_audio_1 [65.6D.5F.72.63.5F.31.5F.61.75.64.69.6F.5F.31 (hex)]
+271: genEventResourceId.16 (octet string) em_rc_1_audio_1 [65.6D.5F.72.63.5F.31.5F.61.75.64.69.6F.5F.31 (hex)]
+272: genEventResourceId.17 (octet string) em_rc_1_audio_1 [65.6D.5F.72.63.5F.31.5F.61.75.64.69.6F.5F.31 (hex)]
+273: genEventResourceId.18 (octet string) em_rc_1_audio_1 [65.6D.5F.72.63.5F.31.5F.61.75.64.69.6F.5F.31 (hex)]
+274: genEventResourceId.19 (octet string) em_rc_1_audio_1 [65.6D.5F.72.63.5F.31.5F.61.75.64.69.6F.5F.31 (hex)]
+275: genEventResourceId.20 (octet string) (zero-length) 
+276: genEventResourceId.21 (octet string) (zero-length) 
+277: genEventResourceId.22 (octet string) (zero-length) 
+278: genEventResourceId.23 (octet string) (zero-length) 
+279: genEventResourceId.24 (octet string) (zero-length) 
+280: genEventResourceId.25 (octet string) (zero-length) 
+281: genEventResourceId.26 (octet string) LAN/WAN 2 [4C.41.4E.2F.57.41.4E.20.32 (hex)]
+282: genEventResourceId.27 (octet string) PS2 [50.53.32 (hex)]
+283: genEventResourceId.28 (octet string) ASI In 1 [41.53.49.20.49.6E.20.31 (hex)]
+284: genEventResourceId.29 (octet string) LAN/WAN 1 [4C.41.4E.2F.57.41.4E.20.31 (hex)]
+285: genEventResourceId.30 (octet string) (zero-length) 
+286: genEventResourceId.31 (octet string) em_rc_1_video_input [65.6D.5F.72.63.5F.31.5F.76.69.64.65.6F.5F.69.6E.70.75.74 (hex)]
+287: genEventResourceId.32 (octet string) em_rc_1_audio_1 [65.6D.5F.72.63.5F.31.5F.61.75.64.69.6F.5F.31 (hex)]
+288: genEventResourceId.33 (octet string) em_rc_1_audio_1 [65.6D.5F.72.63.5F.31.5F.61.75.64.69.6F.5F.31 (hex)]
+289: genEventResourceId.34 (octet string) em_rc_1_audio_1 [65.6D.5F.72.63.5F.31.5F.61.75.64.69.6F.5F.31 (hex)]
+290: genEventResourceId.35 (octet string) em_rc_1_audio_1 [65.6D.5F.72.63.5F.31.5F.61.75.64.69.6F.5F.31 (hex)]
+291: genEventResourceId.36 (octet string) em_rc_1_audio_1 [65.6D.5F.72.63.5F.31.5F.61.75.64.69.6F.5F.31 (hex)]
+292: genEventResourceId.37 (octet string) em_rc_1_video_input [65.6D.5F.72.63.5F.31.5F.76.69.64.65.6F.5F.69.6E.70.75.74 (hex)]
+293: genEventResourceId.38 (octet string) em_rc_1_audio_1 [65.6D.5F.72.63.5F.31.5F.61.75.64.69.6F.5F.31 (hex)]
+294: genEventResourceId.39 (octet string) em_rc_1_audio_1 [65.6D.5F.72.63.5F.31.5F.61.75.64.69.6F.5F.31 (hex)]
+295: genEventResourceId.40 (octet string) em_rc_1_audio_1 [65.6D.5F.72.63.5F.31.5F.61.75.64.69.6F.5F.31 (hex)]
+296: genEventResourceId.41 (octet string) em_rc_1_audio_1 [65.6D.5F.72.63.5F.31.5F.61.75.64.69.6F.5F.31 (hex)]
+297: genEventResourceId.42 (octet string) em_rc_1_audio_1 [65.6D.5F.72.63.5F.31.5F.61.75.64.69.6F.5F.31 (hex)]
+298: genEventResourceId.43 (octet string) em_rc_1_video_input [65.6D.5F.72.63.5F.31.5F.76.69.64.65.6F.5F.69.6E.70.75.74 (hex)]
+299: genEventResourceId.44 (octet string) em_rc_1_audio_1 [65.6D.5F.72.63.5F.31.5F.61.75.64.69.6F.5F.31 (hex)]
+300: genEventResourceId.45 (octet string) em_rc_1_audio_1 [65.6D.5F.72.63.5F.31.5F.61.75.64.69.6F.5F.31 (hex)]
+301: genEventResourceId.46 (octet string) em_rc_1_audio_1 [65.6D.5F.72.63.5F.31.5F.61.75.64.69.6F.5F.31 (hex)]
+302: genEventResourceId.47 (octet string) em_rc_1_audio_1 [65.6D.5F.72.63.5F.31.5F.61.75.64.69.6F.5F.31 (hex)]
+303: genEventResourceId.48 (octet string) em_rc_1_audio_1 [65.6D.5F.72.63.5F.31.5F.61.75.64.69.6F.5F.31 (hex)]
+304: genEventProbableCause.1 (gauge) 0
+305: genEventProbableCause.2 (gauge) 0
+306: genEventProbableCause.3 (gauge) 0
+307: genEventProbableCause.4 (gauge) 0
+308: genEventProbableCause.5 (gauge) 0
+309: genEventProbableCause.6 (gauge) 0
+310: genEventProbableCause.7 (gauge) 0
+311: genEventProbableCause.8 (gauge) 0
+312: genEventProbableCause.9 (gauge) 0
+313: genEventProbableCause.10 (gauge) 0
+314: genEventProbableCause.11 (gauge) 0
+315: genEventProbableCause.12 (gauge) 0
+316: genEventProbableCause.13 (gauge) 0
+317: genEventProbableCause.14 (gauge) 0
+318: genEventProbableCause.15 (gauge) 1330
+319: genEventProbableCause.16 (gauge) 1330
+320: genEventProbableCause.17 (gauge) 1330
+321: genEventProbableCause.18 (gauge) 1330
+322: genEventProbableCause.19 (gauge) 1063
+323: genEventProbableCause.20 (gauge) 1309
+324: genEventProbableCause.21 (gauge) 0
+325: genEventProbableCause.22 (gauge) 0
+326: genEventProbableCause.23 (gauge) 0
+327: genEventProbableCause.24 (gauge) 0
+328: genEventProbableCause.25 (gauge) 0
+329: genEventProbableCause.26 (gauge) 1067
+330: genEventProbableCause.27 (gauge) 78
+331: genEventProbableCause.28 (gauge) 8
+332: genEventProbableCause.29 (gauge) 1067
+333: genEventProbableCause.30 (gauge) 1175
+334: genEventProbableCause.31 (gauge) 8
+335: genEventProbableCause.32 (gauge) 1330
+336: genEventProbableCause.33 (gauge) 1330
+337: genEventProbableCause.34 (gauge) 1330
+338: genEventProbableCause.35 (gauge) 1330
+339: genEventProbableCause.36 (gauge) 1063
+340: genEventProbableCause.37 (gauge) 8
+341: genEventProbableCause.38 (gauge) 1330
+342: genEventProbableCause.39 (gauge) 1330
+343: genEventProbableCause.40 (gauge) 1330
+344: genEventProbableCause.41 (gauge) 1330
+345: genEventProbableCause.42 (gauge) 1063
+346: genEventProbableCause.43 (gauge) 8
+347: genEventProbableCause.44 (gauge) 1330
+348: genEventProbableCause.45 (gauge) 1330
+349: genEventProbableCause.46 (gauge) 1330
+350: genEventProbableCause.47 (gauge) 1330
+351: genEventProbableCause.48 (gauge) 1063
+352: genEventSpecificProblem.1 (octet string) (zero-length) 
+353: genEventSpecificProblem.2 (octet string) (zero-length) 
+354: genEventSpecificProblem.3 (octet string) (zero-length) 
+355: genEventSpecificProblem.4 (octet string) (zero-length) 
+356: genEventSpecificProblem.5 (octet string) (zero-length) 
+357: genEventSpecificProblem.6 (octet string) (zero-length) 
+358: genEventSpecificProblem.7 (octet string) (zero-length) 
+359: genEventSpecificProblem.8 (octet string) (zero-length) 
+360: genEventSpecificProblem.9 (octet string) (zero-length) 
+361: genEventSpecificProblem.10 (octet string) (zero-length) 
+362: genEventSpecificProblem.11 (octet string) (zero-length) 
+363: genEventSpecificProblem.12 (octet string) (zero-length) 
+364: genEventSpecificProblem.13 (octet string) (zero-length) 
+365: genEventSpecificProblem.14 (octet string) (zero-length) 
+366: genEventSpecificProblem.15 (octet string) channel="right surround" [63.68.61.6E.6E.65.6C.3D.22.72.69.67.68.74.20.73.75.72.72.6F.75.6E.64.22 (hex)]
+367: genEventSpecificProblem.16 (octet string) channel="left surround" [63.68.61.6E.6E.65.6C.3D.22.6C.65.66.74.20.73.75.72.72.6F.75.6E.64.22 (hex)]
+368: genEventSpecificProblem.17 (octet string) channel="LFE" [63.68.61.6E.6E.65.6C.3D.22.4C.46.45.22 (hex)]
+369: genEventSpecificProblem.18 (octet string) channel="center" [63.68.61.6E.6E.65.6C.3D.22.63.65.6E.74.65.72.22 (hex)]
+370: genEventSpecificProblem.19 (octet string) (zero-length) 
+371: genEventSpecificProblem.20 (octet string) [Duplicate Channel ID][Duplicate Channel ID] [5B.44.75.70.6C.69.63.61.74.65.20.43.68.61.6E.6E.65.6C.20.49.44.5D.5B.44.75.70.6C.69.63.61.74.65.20.43.68.61.6E.6E.65.6C.20.49.44.5D (hex)]
+372: genEventSpecificProblem.21 (octet string) (zero-length) 
+373: genEventSpecificProblem.22 (octet string) (zero-length) 
+374: genEventSpecificProblem.23 (octet string) (zero-length) 
+375: genEventSpecificProblem.24 (octet string) (zero-length) 
+376: genEventSpecificProblem.25 (octet string) (zero-length) 
+377: genEventSpecificProblem.26 (octet string) (zero-length) 
+378: genEventSpecificProblem.27 (octet string) (zero-length) 
+379: genEventSpecificProblem.28 (octet string) (zero-length) 
+380: genEventSpecificProblem.29 (octet string) (zero-length) 
+381: genEventSpecificProblem.30 (octet string) Physical interfaces do not match [50.68.79.73.69.63.61.6C.20.69.6E.74.65.72.66.61.63.65.73.20.64.6F.20.6E.6F.74.20.6D.61.74.63.68 (hex)]
+382: genEventSpecificProblem.31 (octet string) (zero-length) 
+383: genEventSpecificProblem.32 (octet string) channel="right surround" [63.68.61.6E.6E.65.6C.3D.22.72.69.67.68.74.20.73.75.72.72.6F.75.6E.64.22 (hex)]
+384: genEventSpecificProblem.33 (octet string) channel="left surround" [63.68.61.6E.6E.65.6C.3D.22.6C.65.66.74.20.73.75.72.72.6F.75.6E.64.22 (hex)]
+385: genEventSpecificProblem.34 (octet string) channel="LFE" [63.68.61.6E.6E.65.6C.3D.22.4C.46.45.22 (hex)]
+386: genEventSpecificProblem.35 (octet string) channel="center" [63.68.61.6E.6E.65.6C.3D.22.63.65.6E.74.65.72.22 (hex)]
+387: genEventSpecificProblem.36 (octet string) (zero-length) 
+388: genEventSpecificProblem.37 (octet string) (zero-length) 
+389: genEventSpecificProblem.38 (octet string) channel="left surround" [63.68.61.6E.6E.65.6C.3D.22.6C.65.66.74.20.73.75.72.72.6F.75.6E.64.22 (hex)]
+390: genEventSpecificProblem.39 (octet string) channel="LFE" [63.68.61.6E.6E.65.6C.3D.22.4C.46.45.22 (hex)]
+391: genEventSpecificProblem.40 (octet string) channel="right surround" [63.68.61.6E.6E.65.6C.3D.22.72.69.67.68.74.20.73.75.72.72.6F.75.6E.64.22 (hex)]
+392: genEventSpecificProblem.41 (octet string) channel="center" [63.68.61.6E.6E.65.6C.3D.22.63.65.6E.74.65.72.22 (hex)]
+393: genEventSpecificProblem.42 (octet string) (zero-length) 
+394: genEventSpecificProblem.43 (octet string) (zero-length) 
+395: genEventSpecificProblem.44 (octet string) channel="left surround" [63.68.61.6E.6E.65.6C.3D.22.6C.65.66.74.20.73.75.72.72.6F.75.6E.64.22 (hex)]
+396: genEventSpecificProblem.45 (octet string) channel="LFE" [63.68.61.6E.6E.65.6C.3D.22.4C.46.45.22 (hex)]
+397: genEventSpecificProblem.46 (octet string) channel="right surround" [63.68.61.6E.6E.65.6C.3D.22.72.69.67.68.74.20.73.75.72.72.6F.75.6E.64.22 (hex)]
+398: genEventSpecificProblem.47 (octet string) channel="center" [63.68.61.6E.6E.65.6C.3D.22.63.65.6E.74.65.72.22 (hex)]
+399: genEventSpecificProblem.48 (octet string) (zero-length) 
+400: genEventSeverity.1 (integer) severityIndeterminate(2)
+401: genEventSeverity.2 (integer) severityIndeterminate(2)
+402: genEventSeverity.3 (integer) severityIndeterminate(2)
+403: genEventSeverity.4 (integer) severityIndeterminate(2)
+404: genEventSeverity.5 (integer) severityIndeterminate(2)
+405: genEventSeverity.6 (integer) severityIndeterminate(2)
+406: genEventSeverity.7 (integer) severityIndeterminate(2)
+407: genEventSeverity.8 (integer) severityIndeterminate(2)
+408: genEventSeverity.9 (integer) severityIndeterminate(2)
+409: genEventSeverity.10 (integer) severityIndeterminate(2)
+410: genEventSeverity.11 (integer) severityIndeterminate(2)
+411: genEventSeverity.12 (integer) severityIndeterminate(2)
+412: genEventSeverity.13 (integer) severityIndeterminate(2)
+413: genEventSeverity.14 (integer) severityIndeterminate(2)
+414: genEventSeverity.15 (integer) severityWarning(3)
+415: genEventSeverity.16 (integer) severityWarning(3)
+416: genEventSeverity.17 (integer) severityWarning(3)
+417: genEventSeverity.18 (integer) severityWarning(3)
+418: genEventSeverity.19 (integer) severityMinor(4)
+419: genEventSeverity.20 (integer) severityMajor(5)
+420: genEventSeverity.21 (integer) severityIndeterminate(2)
+421: genEventSeverity.22 (integer) severityIndeterminate(2)
+422: genEventSeverity.23 (integer) severityIndeterminate(2)
+423: genEventSeverity.24 (integer) severityIndeterminate(2)
+424: genEventSeverity.25 (integer) severityIndeterminate(2)
+425: genEventSeverity.26 (integer) severityMajor(5)
+426: genEventSeverity.27 (integer) severityMajor(5)
+427: genEventSeverity.28 (integer) severityMajor(5)
+428: genEventSeverity.29 (integer) severityMajor(5)
+429: genEventSeverity.30 (integer) severityMajor(5)
+430: genEventSeverity.31 (integer) severityMajor(5)
+431: genEventSeverity.32 (integer) severityCleared(1)
+432: genEventSeverity.33 (integer) severityCleared(1)
+433: genEventSeverity.34 (integer) severityCleared(1)
+434: genEventSeverity.35 (integer) severityCleared(1)
+435: genEventSeverity.36 (integer) severityCleared(1)
+436: genEventSeverity.37 (integer) severityCleared(1)
+437: genEventSeverity.38 (integer) severityWarning(3)
+438: genEventSeverity.39 (integer) severityWarning(3)
+439: genEventSeverity.40 (integer) severityWarning(3)
+440: genEventSeverity.41 (integer) severityWarning(3)
+441: genEventSeverity.42 (integer) severityMinor(4)
+442: genEventSeverity.43 (integer) severityMajor(5)
+443: genEventSeverity.44 (integer) severityCleared(1)
+444: genEventSeverity.45 (integer) severityCleared(1)
+445: genEventSeverity.46 (integer) severityCleared(1)
+446: genEventSeverity.47 (integer) severityCleared(1)
+447: genEventSeverity.48 (integer) severityCleared(1)
+448: genEventCategory.1 (integer) other(6)
+449: genEventCategory.2 (integer) other(6)
+450: genEventCategory.3 (integer) other(6)
+451: genEventCategory.4 (integer) other(6)
+452: genEventCategory.5 (integer) other(6)
+453: genEventCategory.6 (integer) other(6)
+454: genEventCategory.7 (integer) other(6)
+455: genEventCategory.8 (integer) other(6)
+456: genEventCategory.9 (integer) other(6)
+457: genEventCategory.10 (integer) other(6)
+458: genEventCategory.11 (integer) other(6)
+459: genEventCategory.12 (integer) other(6)
+460: genEventCategory.13 (integer) other(6)
+461: genEventCategory.14 (integer) other(6)
+462: genEventCategory.15 (integer) communication(1)
+463: genEventCategory.16 (integer) communication(1)
+464: genEventCategory.17 (integer) communication(1)
+465: genEventCategory.18 (integer) communication(1)
+466: genEventCategory.19 (integer) communication(1)
+467: genEventCategory.20 (integer) communication(1)
+468: genEventCategory.21 (integer) other(6)
+469: genEventCategory.22 (integer) other(6)
+470: genEventCategory.23 (integer) other(6)
+471: genEventCategory.24 (integer) other(6)
+472: genEventCategory.25 (integer) other(6)
+473: genEventCategory.26 (integer) communication(1)
+474: genEventCategory.27 (integer) equipment(4)
+475: genEventCategory.28 (integer) communication(1)
+476: genEventCategory.29 (integer) communication(1)
+477: genEventCategory.30 (integer) processing(3)
+478: genEventCategory.31 (integer) communication(1)
+479: genEventCategory.32 (integer) communication(1)
+480: genEventCategory.33 (integer) communication(1)
+481: genEventCategory.34 (integer) communication(1)
+482: genEventCategory.35 (integer) communication(1)
+483: genEventCategory.36 (integer) communication(1)
+484: genEventCategory.37 (integer) communication(1)
+485: genEventCategory.38 (integer) communication(1)
+486: genEventCategory.39 (integer) communication(1)
+487: genEventCategory.40 (integer) communication(1)
+488: genEventCategory.41 (integer) communication(1)
+489: genEventCategory.42 (integer) communication(1)
+490: genEventCategory.43 (integer) communication(1)
+491: genEventCategory.44 (integer) communication(1)
+492: genEventCategory.45 (integer) communication(1)
+493: genEventCategory.46 (integer) communication(1)
+494: genEventCategory.47 (integer) communication(1)
+495: genEventCategory.48 (integer) communication(1)
+496: genEventLabel.1 (octet string) Alarm filters updated [41.6C.61.72.6D.20.66.69.6C.74.65.72.73.20.75.70.64.61.74.65.64 (hex)]
+497: genEventLabel.2 (octet string) Server started [53.65.72.76.65.72.20.73.74.61.72.74.65.64 (hex)]
+498: genEventLabel.3 (octet string) Boot for unknown reason [42.6F.6F.74.20.66.6F.72.20.75.6E.6B.6E.6F.77.6E.20.72.65.61.73.6F.6E (hex)]
+499: genEventLabel.4 (octet string) Entity [entity_id="Access Group Configuration (AGC)"] activation [45.6E.74.69.74.79.20.5B.65.6E.74.69.74.79.5F.69.64.3D.22.41.63.63.65.73.73.20.47.72.6F.75.70.20.43.6F.6E.66.69.67.75.72.61.74.69.6F.6E.20.28.41.47.43.29.22.5D.20.61.63.74.69.76.61.74.69.6F.6E (hex)]
+500: genEventLabel.5 (octet string) [communication_type="COM MUX -> CA"]: connection established with [ip_address="10.12.42.248"] [5B.63.6F.6D.6D.75.6E.69.63.61.74.69.6F.6E.5F.74.79.70.65.3D.22.43.4F.4D.20.4D.55.58.20.2D.3E.20.43.41.22.5D.3A.20.63.6F.6E.6E.65.63.74.69.6F.6E.20.65.73.74.61.62.6C.69.73.68.65.64.20.77.69.74.68.20.5B.69.70.5F.61.64.64.72.65.73.73.3D.22.31.30.2E.31.32.2E.34.32.2E.32.34.38.22.5D (hex)]
+501: genEventLabel.6 (octet string) [communication_type="COM INFO"]: connection established with [ip_address="10.11.240.52"] [5B.63.6F.6D.6D.75.6E.69.63.61.74.69.6F.6E.5F.74.79.70.65.3D.22.43.4F.4D.20.49.4E.46.4F.22.5D.3A.20.63.6F.6E.6E.65.63.74.69.6F.6E.20.65.73.74.61.62.6C.69.73.68.65.64.20.77.69.74.68.20.5B.69.70.5F.61.64.64.72.65.73.73.3D.22.31.30.2E.31.31.2E.32.34.30.2E.35.32.22.5D (hex)]
+502: genEventLabel.7 (octet string) [communication_type="COM INFO"]: connection established with [ip_address="10.11.240.52"] [5B.63.6F.6D.6D.75.6E.69.63.61.74.69.6F.6E.5F.74.79.70.65.3D.22.43.4F.4D.20.49.4E.46.4F.22.5D.3A.20.63.6F.6E.6E.65.63.74.69.6F.6E.20.65.73.74.61.62.6C.69.73.68.65.64.20.77.69.74.68.20.5B.69.70.5F.61.64.64.72.65.73.73.3D.22.31.30.2E.31.31.2E.32.34.30.2E.35.32.22.5D (hex)]
+503: genEventLabel.8 (octet string) [communication_type="COM CC"]: connection established with [ip_address="10.11.240.52"] [5B.63.6F.6D.6D.75.6E.69.63.61.74.69.6F.6E.5F.74.79.70.65.3D.22.43.4F.4D.20.43.43.22.5D.3A.20.63.6F.6E.6E.65.63.74.69.6F.6E.20.65.73.74.61.62.6C.69.73.68.65.64.20.77.69.74.68.20.5B.69.70.5F.61.64.64.72.65.73.73.3D.22.31.30.2E.31.31.2E.32.34.30.2E.35.32.22.5D (hex)]
+504: genEventLabel.9 (octet string) [communication_type="COM EVT"]: connection established with [ip_address="10.11.240.52"] [5B.63.6F.6D.6D.75.6E.69.63.61.74.69.6F.6E.5F.74.79.70.65.3D.22.43.4F.4D.20.45.56.54.22.5D.3A.20.63.6F.6E.6E.65.63.74.69.6F.6E.20.65.73.74.61.62.6C.69.73.68.65.64.20.77.69.74.68.20.5B.69.70.5F.61.64.64.72.65.73.73.3D.22.31.30.2E.31.31.2E.32.34.30.2E.35.32.22.5D (hex)]
+505: genEventLabel.10 (octet string) Element EM187 added by XMS Server [45.6C.65.6D.65.6E.74.20.45.4D.31.38.37.20.61.64.64.65.64.20.62.79.20.58.4D.53.20.53.65.72.76.65.72 (hex)]
+506: genEventLabel.11 (octet string) Element EM187 modification by XMS Server [45.6C.65.6D.65.6E.74.20.45.4D.31.38.37.20.6D.6F.64.69.66.69.63.61.74.69.6F.6E.20.62.79.20.58.4D.53.20.53.65.72.76.65.72 (hex)]
+507: genEventLabel.12 (octet string) Element EM187 modification by XMS Server [45.6C.65.6D.65.6E.74.20.45.4D.31.38.37.20.6D.6F.64.69.66.69.63.61.74.69.6F.6E.20.62.79.20.58.4D.53.20.53.65.72.76.65.72 (hex)]
+508: genEventLabel.13 (octet string) Entity [entity_id="Description of Managed Topology (DMT)"] activation [45.6E.74.69.74.79.20.5B.65.6E.74.69.74.79.5F.69.64.3D.22.44.65.73.63.72.69.70.74.69.6F.6E.20.6F.66.20.4D.61.6E.61.67.65.64.20.54.6F.70.6F.6C.6F.67.79.20.28.44.4D.54.29.22.5D.20.61.63.74.69.76.61.74.69.6F.6E (hex)]
+509: genEventLabel.14 (octet string) Broadcast status change: [broadcast_status="STAND-BY->ACTIVE"] [42.72.6F.61.64.63.61.73.74.20.73.74.61.74.75.73.20.63.68.61.6E.67.65.3A.20.5B.62.72.6F.61.64.63.61.73.74.5F.73.74.61.74.75.73.3D.22.53.54.41.4E.44.2D.42.59.2D.3E.41.43.54.49.56.45.22.5D (hex)]
+510: genEventLabel.15 (octet string) Detected silence: channel="right surround" [44.65.74.65.63.74.65.64.20.73.69.6C.65.6E.63.65.3A.20.63.68.61.6E.6E.65.6C.3D.22.72.69.67.68.74.20.73.75.72.72.6F.75.6E.64.22 (hex)]
+511: genEventLabel.16 (octet string) Detected silence: channel="left surround" [44.65.74.65.63.74.65.64.20.73.69.6C.65.6E.63.65.3A.20.63.68.61.6E.6E.65.6C.3D.22.6C.65.66.74.20.73.75.72.72.6F.75.6E.64.22 (hex)]
+512: genEventLabel.17 (octet string) Detected silence: channel="LFE" [44.65.74.65.63.74.65.64.20.73.69.6C.65.6E.63.65.3A.20.63.68.61.6E.6E.65.6C.3D.22.4C.46.45.22 (hex)]
+513: genEventLabel.18 (octet string) Detected silence: channel="center" [44.65.74.65.63.74.65.64.20.73.69.6C.65.6E.63.65.3A.20.63.68.61.6E.6E.65.6C.3D.22.63.65.6E.74.65.72.22 (hex)]
+514: genEventLabel.19 (octet string) Bad embedded signal [42.61.64.20.65.6D.62.65.64.64.65.64.20.73.69.67.6E.61.6C (hex)]
+515: genEventLabel.20 (octet string) Control command conflict: [Duplicate Channel ID][Duplicate Channel ID] [43.6F.6E.74.72.6F.6C.20.63.6F.6D.6D.61.6E.64.20.63.6F.6E.66.6C.69.63.74.3A.20.5B.44.75.70.6C.69.63.61.74.65.20.43.68.61.6E.6E.65.6C.20.49.44.5D.5B.44.75.70.6C.69.63.61.74.65.20.43.68.61.6E.6E.65.6C.20.49.44.5D (hex)]
+516: genEventLabel.21 (octet string) Element NFP248 added by XMS Server [45.6C.65.6D.65.6E.74.20.4E.46.50.32.34.38.20.61.64.64.65.64.20.62.79.20.58.4D.53.20.53.65.72.76.65.72 (hex)]
+517: genEventLabel.22 (octet string) Element NFP248 modification by XMS Server [45.6C.65.6D.65.6E.74.20.4E.46.50.32.34.38.20.6D.6F.64.69.66.69.63.61.74.69.6F.6E.20.62.79.20.58.4D.53.20.53.65.72.76.65.72 (hex)]
+518: genEventLabel.23 (octet string) Element NFP248 modification by XMS Server [45.6C.65.6D.65.6E.74.20.4E.46.50.32.34.38.20.6D.6F.64.69.66.69.63.61.74.69.6F.6E.20.62.79.20.58.4D.53.20.53.65.72.76.65.72 (hex)]
+519: genEventLabel.24 (octet string) Entity [entity_id="Description of Managed Topology (DMT)"] activation [45.6E.74.69.74.79.20.5B.65.6E.74.69.74.79.5F.69.64.3D.22.44.65.73.63.72.69.70.74.69.6F.6E.20.6F.66.20.4D.61.6E.61.67.65.64.20.54.6F.70.6F.6C.6F.67.79.20.28.44.4D.54.29.22.5D.20.61.63.74.69.76.61.74.69.6F.6E (hex)]
+520: genEventLabel.25 (octet string) Broadcast status change: [broadcast_status="STAND-BY->ACTIVE"] [42.72.6F.61.64.63.61.73.74.20.73.74.61.74.75.73.20.63.68.61.6E.67.65.3A.20.5B.62.72.6F.61.64.63.61.73.74.5F.73.74.61.74.75.73.3D.22.53.54.41.4E.44.2D.42.59.2D.3E.41.43.54.49.56.45.22.5D (hex)]
+521: genEventLabel.26 (octet string) Link down [4C.69.6E.6B.20.64.6F.77.6E (hex)]
+522: genEventLabel.27 (octet string) Power supply failure [50.6F.77.65.72.20.73.75.70.70.6C.79.20.66.61.69.6C.75.72.65 (hex)]
+523: genEventLabel.28 (octet string) Loss of signal [4C.6F.73.73.20.6F.66.20.73.69.67.6E.61.6C (hex)]
+524: genEventLabel.29 (octet string) Link down [4C.69.6E.6B.20.64.6F.77.6E (hex)]
+525: genEventLabel.30 (octet string) Configuration inconsistency: Physical interfaces do not match [43.6F.6E.66.69.67.75.72.61.74.69.6F.6E.20.69.6E.63.6F.6E.73.69.73.74.65.6E.63.79.3A.20.50.68.79.73.69.63.61.6C.20.69.6E.74.65.72.66.61.63.65.73.20.64.6F.20.6E.6F.74.20.6D.61.74.63.68 (hex)]
+526: genEventLabel.31 (octet string) Loss of signal [4C.6F.73.73.20.6F.66.20.73.69.67.6E.61.6C (hex)]
+527: genEventLabel.32 (octet string) Detected silence: channel="right surround" [44.65.74.65.63.74.65.64.20.73.69.6C.65.6E.63.65.3A.20.63.68.61.6E.6E.65.6C.3D.22.72.69.67.68.74.20.73.75.72.72.6F.75.6E.64.22 (hex)]
+528: genEventLabel.33 (octet string) Detected silence: channel="left surround" [44.65.74.65.63.74.65.64.20.73.69.6C.65.6E.63.65.3A.20.63.68.61.6E.6E.65.6C.3D.22.6C.65.66.74.20.73.75.72.72.6F.75.6E.64.22 (hex)]
+529: genEventLabel.34 (octet string) Detected silence: channel="LFE" [44.65.74.65.63.74.65.64.20.73.69.6C.65.6E.63.65.3A.20.63.68.61.6E.6E.65.6C.3D.22.4C.46.45.22 (hex)]
+530: genEventLabel.35 (octet string) Detected silence: channel="center" [44.65.74.65.63.74.65.64.20.73.69.6C.65.6E.63.65.3A.20.63.68.61.6E.6E.65.6C.3D.22.63.65.6E.74.65.72.22 (hex)]
+531: genEventLabel.36 (octet string) Bad embedded signal [42.61.64.20.65.6D.62.65.64.64.65.64.20.73.69.67.6E.61.6C (hex)]
+532: genEventLabel.37 (octet string) Loss of signal [4C.6F.73.73.20.6F.66.20.73.69.67.6E.61.6C (hex)]
+533: genEventLabel.38 (octet string) Detected silence: channel="left surround" [44.65.74.65.63.74.65.64.20.73.69.6C.65.6E.63.65.3A.20.63.68.61.6E.6E.65.6C.3D.22.6C.65.66.74.20.73.75.72.72.6F.75.6E.64.22 (hex)]
+534: genEventLabel.39 (octet string) Detected silence: channel="LFE" [44.65.74.65.63.74.65.64.20.73.69.6C.65.6E.63.65.3A.20.63.68.61.6E.6E.65.6C.3D.22.4C.46.45.22 (hex)]
+535: genEventLabel.40 (octet string) Detected silence: channel="right surround" [44.65.74.65.63.74.65.64.20.73.69.6C.65.6E.63.65.3A.20.63.68.61.6E.6E.65.6C.3D.22.72.69.67.68.74.20.73.75.72.72.6F.75.6E.64.22 (hex)]
+536: genEventLabel.41 (octet string) Detected silence: channel="center" [44.65.74.65.63.74.65.64.20.73.69.6C.65.6E.63.65.3A.20.63.68.61.6E.6E.65.6C.3D.22.63.65.6E.74.65.72.22 (hex)]
+537: genEventLabel.42 (octet string) Bad embedded signal [42.61.64.20.65.6D.62.65.64.64.65.64.20.73.69.67.6E.61.6C (hex)]
+538: genEventLabel.43 (octet string) Loss of signal [4C.6F.73.73.20.6F.66.20.73.69.67.6E.61.6C (hex)]
+539: genEventLabel.44 (octet string) Detected silence: channel="left surround" [44.65.74.65.63.74.65.64.20.73.69.6C.65.6E.63.65.3A.20.63.68.61.6E.6E.65.6C.3D.22.6C.65.66.74.20.73.75.72.72.6F.75.6E.64.22 (hex)]
+540: genEventLabel.45 (octet string) Detected silence: channel="LFE" [44.65.74.65.63.74.65.64.20.73.69.6C.65.6E.63.65.3A.20.63.68.61.6E.6E.65.6C.3D.22.4C.46.45.22 (hex)]
+541: genEventLabel.46 (octet string) Detected silence: channel="right surround" [44.65.74.65.63.74.65.64.20.73.69.6C.65.6E.63.65.3A.20.63.68.61.6E.6E.65.6C.3D.22.72.69.67.68.74.20.73.75.72.72.6F.75.6E.64.22 (hex)]
+542: genEventLabel.47 (octet string) Detected silence: channel="center" [44.65.74.65.63.74.65.64.20.73.69.6C.65.6E.63.65.3A.20.63.68.61.6E.6E.65.6C.3D.22.63.65.6E.74.65.72.22 (hex)]
+543: genEventLabel.48 (octet string) Bad embedded signal [42.61.64.20.65.6D.62.65.64.64.65.64.20.73.69.67.6E.61.6C (hex)]
+544: genSoftwareVersion.0 (octet string) XMS_04.50.05_PATCH_02 - 17/04/2013 [58.4D.53.5F.30.34.2E.35.30.2E.30.35.5F.50.41.54.43.48.5F.30.32.20.2D.20.31.37.2F.30.34.2F.32.30.31.33 (hex)]
+545: genTrapTopoChangeType.0 (integer) genTrapObjectCreation(1)
+
+------------------------
+
+546: topoElementIndex.1 (gauge) 1
+547: topoElementIndex.2 (gauge) 2
+548: topoElementIndex.3 (gauge) 3
+
+549: topoElementName.1 (octet string) XMU_01 [58.4D.55.5F.30.31 (hex)]
+550: topoElementName.2 (octet string) EM187 [45.4D.31.38.37 (hex)]
+551: topoElementName.3 (octet string) NFP248 [4E.46.50.32.34.38 (hex)]
+
+552: topoElementType.1 (gauge) 4
+553: topoElementType.2 (gauge) 16
+554: topoElementType.3 (gauge) 2
+
+555: topoElementExtType.1 (gauge) 5
+556: topoElementExtType.2 (gauge) 7
+557: topoElementExtType.3 (gauge) 3
+
+558: topoElementParentIndex.1 (gauge) 0
+559: topoElementParentIndex.2 (gauge) 1
+560: topoElementParentIndex.3 (gauge) 1
+
+561: topoElementMaintenanceStatus.1 (integer) maintenanceModeOff(0)
+562: topoElementMaintenanceStatus.2 (integer) maintenanceModeOff(0)
+563: topoElementMaintenanceStatus.3 (integer) maintenanceModeOff(0)
+
+564: topoElementIdleStatus.1 (integer) idleModeOff(0)
+565: topoElementIdleStatus.2 (integer) idleModeOff(0)
+566: topoElementIdleStatus.3 (integer) idleModeOff(0)
+
+567: topoElementOfflineStatus.1 (integer) offlineStatusOnline(0)
+568: topoElementOfflineStatus.2 (integer) offlineStatusOnline(0)
+569: topoElementOfflineStatus.3 (integer) offlineStatusOnline(0)
+
+***** SNMP QUERY FINISHED *****

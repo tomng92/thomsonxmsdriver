@@ -1,0 +1,343 @@
+####################################################
+# Time:               Wed Oct 16 13:51:35 2013
+# Number of Rows:     2
+# Value type formats:                               
+#     fixed(current_value)                          
+#     lastset(initial_value)                        
+#     r_lastset(min, max, initial_value)            
+#     random(starting_value,max_delta)              
+#     randomup(starting_value,max_delta)            
+#     clock(starting_value)                         
+#     sequential(min_value,max_value)               
+#     seqinc(min_value,increment,max_value)         
+#     seqtimeinc(min_value,increment,max_value)     
+#     dfixed(current_value)                         
+#     rowstatus(current_value)                      
+#     testandinc(current_value)                     
+#     utilization(min_value,max_delta,max_value)    
+#     valuelist(a, b, c, d, e, ...)                 
+#     fastclock(starting_value, multiplier)         
+#     valueintlist(a, b, c, d, e, ...)              
+####################################################
+# columnar variable genManagerIpAddress. Index = genManagerIpAddress genManagerPort
+# sub ids in the instance are = ip1.ip2.ip3.ip4.n
+genManagerIpAddress.1.2.3.4.1 , IpAddress     , RW , fixed(1.2.3.4)
+genManagerIpAddress.1.2.3.4.2 , IpAddress     , RW , fixed(1.2.3.4)
+# columnar variable genManagerPort. Index = genManagerIpAddress genManagerPort
+# sub ids in the instance are = ip1.ip2.ip3.ip4.n
+genManagerPort.1.2.3.4.1      , Integer       , RW , fixed(1)
+genManagerPort.1.2.3.4.2      , Integer       , RW , fixed(2)
+# columnar variable genManagerTrapEnable. Index = genManagerIpAddress genManagerPort
+# sub ids in the instance are = ip1.ip2.ip3.ip4.n
+genManagerTrapEnable.1.2.3.4.1, Integer       , RW , r_lastset(1, 2, 1)
+genManagerTrapEnable.1.2.3.4.2, Integer       , RW , r_lastset(1, 2, 1)
+# columnar variable genManagerTrapTypeSelection. Index = genManagerIpAddress genManagerPort
+# sub ids in the instance are = ip1.ip2.ip3.ip4.n
+genManagerTrapTypeSelection.1.2.3.4.1, Integer       , RW , lastset(1)
+genManagerTrapTypeSelection.1.2.3.4.2, Integer       , RW , lastset(1)
+# columnar variable genManagerEventTrapSeverityFilter. Index = genManagerIpAddress genManagerPort
+# sub ids in the instance are = ip1.ip2.ip3.ip4.n
+genManagerEventTrapSeverityFilter.1.2.3.4.1, Integer       , RW , r_lastset(2, 6, 2)
+genManagerEventTrapSeverityFilter.1.2.3.4.2, Integer       , RW , r_lastset(2, 6, 2)
+# columnar variable genManagerRowStatus. Index = genManagerIpAddress genManagerPort
+# sub ids in the instance are = ip1.ip2.ip3.ip4.n
+genManagerRowStatus.1.2.3.4.1 , Integer       , RC , rowstatus(1)
+genManagerRowStatus.1.2.3.4.2 , Integer       , RC , rowstatus(1)
+# columnar variable genAlarmIndex. Index = genAlarmOrigin genAlarmIndex
+# sub ids in the instance are = len.os1.os2.osn.n
+genAlarmIndex.5.69.77.49.56.55.6, Integer       , RO , fixed(6)
+genAlarmIndex.6.78.70.80.50.52.56.7, Integer       , RO , fixed(7)
+# columnar variable genAlarmOrigin. Index = genAlarmOrigin genAlarmIndex
+# sub ids in the instance are = len.os1.os2.osn.n
+genAlarmOrigin.5.69.77.49.56.55.6, OctetString   , RO , fixed(69.77.49.56.55)
+genAlarmOrigin.6.78.70.80.50.52.56.7, OctetString   , RO , fixed(78.70.80.50.52.56)
+# columnar variable genAlarmResourceId. Index = genAlarmOrigin genAlarmIndex
+# sub ids in the instance are = len.os1.os2.osn.n
+genAlarmResourceId.5.69.77.49.56.55.6, OctetString   , RO , fixed( )
+genAlarmResourceId.6.78.70.80.50.52.56.7, OctetString   , RO , fixed(LAN/WAN 2)
+# columnar variable genAlarmProbableCause. Index = genAlarmOrigin genAlarmIndex
+# sub ids in the instance are = len.os1.os2.osn.n
+genAlarmProbableCause.5.69.77.49.56.55.6, Gauge         , RO , fixed(1064)
+genAlarmProbableCause.6.78.70.80.50.52.56.7, Gauge         , RO , fixed(1287)
+# columnar variable genAlarmSpecificProblem. Index = genAlarmOrigin genAlarmIndex
+# sub ids in the instance are = len.os1.os2.osn.n
+genAlarmSpecificProblem.5.69.77.49.56.55.6, OctetString   , RO , fixed([Duplicate Channel ID][Duplicate Channel ID] )
+genAlarmSpecificProblem.6.78.70.80.50.52.56.7, OctetString   , RO , fixed( )
+# columnar variable genAlarmTime. Index = genAlarmOrigin genAlarmIndex
+# sub ids in the instance are = len.os1.os2.osn.n
+genAlarmTime.5.69.77.49.56.55.6, OctetString   , RO , fixed(07.DD.0A.0A.08.16.2E.36.2B.00.00)
+genAlarmTime.6.78.70.80.50.52.56.7, OctetString   , RO , fixed(07.DD.0A.0A.08.1C.10.31.2B.00.00)
+# columnar variable genAlarmSeverity. Index = genAlarmOrigin genAlarmIndex
+# sub ids in the instance are = len.os1.os2.osn.n
+genAlarmSeverity.5.69.77.49.56.55.6, Integer       , RO , fixed(5)
+genAlarmSeverity.6.78.70.80.50.52.56.7, Integer       , RO , fixed(5)
+# columnar variable genAlarmCategory. Index = genAlarmOrigin genAlarmIndex
+# sub ids in the instance are = len.os1.os2.osn.n
+genAlarmCategory.5.69.77.49.56.55.6, Integer       , RO , fixed(1)
+genAlarmCategory.6.78.70.80.50.52.56.7, Integer       , RO , fixed(1)
+# columnar variable genAlarmLabel. Index = genAlarmOrigin genAlarmIndex
+# sub ids in the instance are = len.os1.os2.osn.n
+genAlarmLabel.5.69.77.49.56.55.6, OctetString   , RO , fixed(43.6F.6E.74.72.6F.6C.20.63.6F.6D.6D.61.6E.64.20.63.6F.6E.66.6C.69.63.74.3A.20.5B.44.75.70.6C.69.63.61.74.65.20.43.68.61.6E.6E.65.6C.20.49.44.5D.5B.44.75.70.6C.69.63.61.74.65.20.43.68.61.6E.6E.65.6C.20.49.44.5D)
+genAlarmLabel.6.78.70.80.50.52.56.7, OctetString   , RO , fixed(4C.69.6E.6B.20.64.6F.77.6E )
+# columnar variable genEventRecordId. Index = genEventRecordId
+# sub ids in the instance are = n
+genEventRecordId.1            , Gauge         , RO , fixed(1)
+genEventRecordId.2            , Gauge         , RO , fixed(2)
+# columnar variable genEventType. Index = genEventRecordId
+# sub ids in the instance are = n
+genEventType.1                , Integer       , RO , fixed(1)
+genEventType.2                , Integer       , RO , fixed(1)
+# columnar variable genEventTime. Index = genEventRecordId
+# sub ids in the instance are = n
+genEventTime.1                , OctetString   , RO , fixed(abc)
+genEventTime.2                , OctetString   , RO , fixed(abc)
+# columnar variable genEventOrigin. Index = genEventRecordId
+# sub ids in the instance are = n
+genEventOrigin.1              , OctetString   , RO , fixed(My_genEventOrigin_string)
+genEventOrigin.2              , OctetString   , RO , fixed(My_genEventOrigin_string)
+# columnar variable genEventResourceId. Index = genEventRecordId
+# sub ids in the instance are = n
+genEventResourceId.1          , OctetString   , RO , fixed(My_genEventResourceId_string)
+genEventResourceId.2          , OctetString   , RO , fixed(My_genEventResourceId_string)
+# columnar variable genEventProbableCause. Index = genEventRecordId
+# sub ids in the instance are = n
+genEventProbableCause.1       , Gauge         , RO , random(1000, 100)
+genEventProbableCause.2       , Gauge         , RO , random(1000, 100)
+# columnar variable genEventSpecificProblem. Index = genEventRecordId
+# sub ids in the instance are = n
+genEventSpecificProblem.1     , OctetString   , RO , fixed(My_genEventSpecificProblem_string)
+genEventSpecificProblem.2     , OctetString   , RO , fixed(My_genEventSpecificProblem_string)
+# columnar variable genEventSeverity. Index = genEventRecordId
+# sub ids in the instance are = n
+genEventSeverity.1            , Integer       , RO , fixed(1)
+genEventSeverity.2            , Integer       , RO , fixed(1)
+# columnar variable genEventCategory. Index = genEventRecordId
+# sub ids in the instance are = n
+genEventCategory.1            , Integer       , RO , fixed(1)
+genEventCategory.2            , Integer       , RO , fixed(1)
+# columnar variable genEventLabel. Index = genEventRecordId
+# sub ids in the instance are = n
+genEventLabel.1               , OctetString   , RO , fixed(My_genEventLabel_string)
+genEventLabel.2               , OctetString   , RO , fixed(My_genEventLabel_string)
+genSoftwareVersion.0          , OctetString   , RO , fixed(My_genSoftwareVersion_string)
+# columnar variable topoElementIndex. Index = topoElementIndex
+# sub ids in the instance are = n
+topoElementIndex.1            , Gauge         , RO , fixed(1)
+topoElementIndex.2            , Gauge         , RO , fixed(2)
+topoElementIndex.3            , Gauge         , RO , fixed(3)
+# columnar variable topoElementName. Index = topoElementIndex
+# sub ids in the instance are = n
+topoElementName.1             , OctetString   , RO , fixed(XMU_01)
+topoElementName.2             , OctetString   , RO , fixed(EM187)
+topoElementName.3             , OctetString   , RO , fixed(NFP248)
+# columnar variable topoElementType. Index = topoElementIndex
+# sub ids in the instance are = n
+topoElementType.1             , Gauge         , RO , fixed(4)
+topoElementType.2             , Gauge         , RO , fixed(16)
+topoElementType.3             , Gauge         , RO , fixed(12)
+# columnar variable topoElementExtType. Index = topoElementIndex
+# sub ids in the instance are = n
+topoElementExtType.1          , Gauge         , RO , fixed(5)
+topoElementExtType.2          , Gauge         , RO , fixed(9)
+topoElementExtType.3          , Gauge         , RO , fixed(19)
+# columnar variable topoElementParentIndex. Index = topoElementIndex
+# sub ids in the instance are = n
+topoElementParentIndex.1      , Gauge         , RO , fixed(0)
+topoElementParentIndex.2      , Gauge         , RO , fixed(1)
+topoElementParentIndex.3      , Gauge         , RO , fixed(1)
+# columnar variable topoElementMaintenanceStatus. Index = topoElementIndex
+# sub ids in the instance are = n
+topoElementMaintenanceStatus.1, Integer       , RW , r_lastset(0, 2, 2)
+topoElementMaintenanceStatus.2, Integer       , RW , r_lastset(0, 2, 2)
+topoElementMaintenanceStatus.3, Integer       , RW , r_lastset(0, 2, 2)
+# columnar variable topoElementIdleStatus. Index = topoElementIndex
+# sub ids in the instance are = n
+topoElementIdleStatus.1       , Integer       , RW , r_lastset(0, 2, 2)
+topoElementIdleStatus.2       , Integer       , RW , r_lastset(0, 2, 2)
+topoElementIdleStatus.3       , Integer       , RW , r_lastset(0, 2, 2)
+# columnar variable topoElementOfflineStatus. Index = topoElementIndex
+# sub ids in the instance are = n
+topoElementOfflineStatus.1    , Integer       , RW , r_lastset(0, 2, 2)
+topoElementOfflineStatus.2    , Integer       , RW , r_lastset(0, 2, 2)
+topoElementOfflineStatus.3    , Integer       , RW , r_lastset(0, 2, 2)
+# columnar variable topoElementRid. Index = topoElementIndex
+# sub ids in the instance are = n
+topoElementRid.1              , OctetString   , RO , fixed(My_topoElementRid_string)
+topoElementRid.2              , OctetString   , RO , fixed(My_topoElementRid_string)
+topoElementRid.3              , OctetString   , RO , fixed(My_topoElementRid_string)
+# columnar variable ipResourceIndex. Index = ipResourceIndex
+# sub ids in the instance are = n
+ipResourceIndex.1             , Gauge         , RO , fixed(1)
+ipResourceIndex.2             , Gauge         , RO , fixed(2)
+# columnar variable ipResourceElementIndex. Index = ipResourceIndex
+# sub ids in the instance are = n
+ipResourceElementIndex.1      , Gauge         , RO , random(1000, 100)
+ipResourceElementIndex.2      , Gauge         , RO , random(1000, 100)
+# columnar variable ipResourceElementName. Index = ipResourceIndex
+# sub ids in the instance are = n
+ipResourceElementName.1       , OctetString   , RO , fixed(My_ipResourceElementName_string)
+ipResourceElementName.2       , OctetString   , RO , fixed(My_ipResourceElementName_string)
+# columnar variable ipResourceNetwork. Index = ipResourceIndex
+# sub ids in the instance are = n
+ipResourceNetwork.1           , OctetString   , RO , fixed(My_ipResourceNetwork_string)
+ipResourceNetwork.2           , OctetString   , RO , fixed(My_ipResourceNetwork_string)
+# columnar variable ipResourceType. Index = ipResourceIndex
+# sub ids in the instance are = n
+ipResourceType.1              , OctetString   , RO , fixed(My_ipResourceType_string)
+ipResourceType.2              , OctetString   , RO , fixed(My_ipResourceType_string)
+# columnar variable ipResourceLabel. Index = ipResourceIndex
+# sub ids in the instance are = n
+ipResourceLabel.1             , OctetString   , RO , fixed(My_ipResourceLabel_string)
+ipResourceLabel.2             , OctetString   , RO , fixed(My_ipResourceLabel_string)
+# columnar variable ipResourceAddress. Index = ipResourceIndex
+# sub ids in the instance are = n
+ipResourceAddress.1           , IpAddress     , RO , fixed(1.2.3.4)
+ipResourceAddress.2           , IpAddress     , RO , fixed(1.2.3.4)
+# columnar variable ipResourceDestinationPort. Index = ipResourceIndex
+# sub ids in the instance are = n
+ipResourceDestinationPort.1   , Gauge         , RO , random(1000, 100)
+ipResourceDestinationPort.2   , Gauge         , RO , random(1000, 100)
+# columnar variable decoderTvChannelElementIndex. Index = decoderTvChannelElementIndex decoderTvChannelChannelNbIndex
+# sub ids in the instance are = n.n
+decoderTvChannelElementIndex.1.1, Gauge         , RO , fixed(1)
+decoderTvChannelElementIndex.1.2, Gauge         , RO , fixed(1)
+# columnar variable decoderTvChannelChannelNbIndex. Index = decoderTvChannelElementIndex decoderTvChannelChannelNbIndex
+# sub ids in the instance are = n.n
+decoderTvChannelChannelNbIndex.1.1, Gauge         , RO , fixed(1)
+decoderTvChannelChannelNbIndex.1.2, Gauge         , RO , fixed(2)
+# columnar variable decoderTvChannelPsi. Index = decoderTvChannelElementIndex decoderTvChannelChannelNbIndex
+# sub ids in the instance are = n.n
+decoderTvChannelPsi.1.1       , Integer       , RO , fixed(1)
+decoderTvChannelPsi.1.2       , Integer       , RO , fixed(1)
+# columnar variable decoderTvChannelDecodedServiceId. Index = decoderTvChannelElementIndex decoderTvChannelChannelNbIndex
+# sub ids in the instance are = n.n
+decoderTvChannelDecodedServiceId.1.1, Gauge         , RW , lastset(1000)
+decoderTvChannelDecodedServiceId.1.2, Gauge         , RW , lastset(1000)
+# columnar variable encoderInputElementIndex. Index = encoderInputElementIndex encoderInputIndex
+# sub ids in the instance are = n.n
+encoderInputElementIndex.1.1  , Gauge         , RO , fixed(1)
+encoderInputElementIndex.1.2  , Gauge         , RO , fixed(1)
+# columnar variable encoderInputIndex. Index = encoderInputElementIndex encoderInputIndex
+# sub ids in the instance are = n.n
+encoderInputIndex.1.1         , Gauge         , RO , fixed(1)
+encoderInputIndex.1.2         , Gauge         , RO , fixed(2)
+# columnar variable encoderInputSource. Index = encoderInputElementIndex encoderInputIndex
+# sub ids in the instance are = n.n
+encoderInputSource.1.1        , Integer       , RW , r_lastset(1, 9, 1)
+encoderInputSource.1.2        , Integer       , RW , r_lastset(1, 9, 1)
+# columnar variable redGroupIndex. Index = redGroupIndex
+# sub ids in the instance are = n
+redGroupIndex.1               , Gauge         , RO , fixed(1)
+redGroupIndex.2               , Gauge         , RO , fixed(2)
+# columnar variable redGroupName. Index = redGroupIndex
+# sub ids in the instance are = n
+redGroupName.1                , OctetString   , RO , fixed(My_redGroupName_string)
+redGroupName.2                , OctetString   , RO , fixed(My_redGroupName_string)
+# columnar variable redGroupType. Index = redGroupIndex
+# sub ids in the instance are = n
+redGroupType.1                , Integer       , RO , fixed(1)
+redGroupType.2                , Integer       , RO , fixed(1)
+# columnar variable redResFixedGroupIndex. Index = redResFixedGroupIndex redResFixedElementIndex
+# sub ids in the instance are = n.n
+redResFixedGroupIndex.1.1     , Gauge         , RO , fixed(1)
+redResFixedGroupIndex.1.2     , Gauge         , RO , fixed(1)
+# columnar variable redResFixedElementIndex. Index = redResFixedGroupIndex redResFixedElementIndex
+# sub ids in the instance are = n.n
+redResFixedElementIndex.1.1   , Gauge         , RO , fixed(1)
+redResFixedElementIndex.1.2   , Gauge         , RO , fixed(2)
+# columnar variable redResFixedRedundancyStatus. Index = redResFixedGroupIndex redResFixedElementIndex
+# sub ids in the instance are = n.n
+redResFixedRedundancyStatus.1.1, Integer       , RO , fixed(1)
+redResFixedRedundancyStatus.1.2, Integer       , RO , fixed(1)
+# columnar variable redResFixedFunction. Index = redResFixedGroupIndex redResFixedElementIndex
+# sub ids in the instance are = n.n
+redResFixedFunction.1.1       , Integer       , RO , fixed(1)
+redResFixedFunction.1.2       , Integer       , RO , fixed(1)
+# columnar variable redResFixedSwitchMode. Index = redResFixedGroupIndex redResFixedElementIndex
+# sub ids in the instance are = n.n
+redResFixedSwitchMode.1.1     , Integer       , RO , fixed(7)
+redResFixedSwitchMode.1.2     , Integer       , RO , fixed(7)
+# columnar variable redResFixedMirroredElementIndex. Index = redResFixedGroupIndex redResFixedElementIndex
+# sub ids in the instance are = n.n
+redResFixedMirroredElementIndex.1.1, Gauge         , RW , lastset(1000)
+redResFixedMirroredElementIndex.1.2, Gauge         , RW , lastset(1000)
+# columnar variable redResFixedBackupElementIndex. Index = redResFixedGroupIndex redResFixedElementIndex
+# sub ids in the instance are = n.n
+redResFixedBackupElementIndex.1.1, Gauge         , RW , lastset(1000)
+redResFixedBackupElementIndex.1.2, Gauge         , RW , lastset(1000)
+# columnar variable redResFixedSwitchCommand. Index = redResFixedGroupIndex redResFixedElementIndex
+# sub ids in the instance are = n.n
+redResFixedSwitchCommand.1.1  , Integer       , RW , r_lastset(1, 2, 1)
+redResFixedSwitchCommand.1.2  , Integer       , RW , r_lastset(1, 2, 1)
+# columnar variable redResFixedRestoreMode. Index = redResFixedGroupIndex redResFixedElementIndex
+# sub ids in the instance are = n.n
+redResFixedRestoreMode.1.1    , Integer       , RO , fixed(1)
+redResFixedRestoreMode.1.2    , Integer       , RO , fixed(1)
+# columnar variable redResFloatingGroupIndex. Index = redResFloatingGroupIndex redResFloatingElementIndex
+# sub ids in the instance are = n.n
+redResFloatingGroupIndex.1.1  , Gauge         , RO , fixed(1)
+redResFloatingGroupIndex.1.2  , Gauge         , RO , fixed(1)
+# columnar variable redResFloatingElementIndex. Index = redResFloatingGroupIndex redResFloatingElementIndex
+# sub ids in the instance are = n.n
+redResFloatingElementIndex.1.1, Gauge         , RO , fixed(1)
+redResFloatingElementIndex.1.2, Gauge         , RO , fixed(2)
+# columnar variable redResFloatingRedundancyStatus. Index = redResFloatingGroupIndex redResFloatingElementIndex
+# sub ids in the instance are = n.n
+redResFloatingRedundancyStatus.1.1, Integer       , RO , fixed(1)
+redResFloatingRedundancyStatus.1.2, Integer       , RO , fixed(1)
+# columnar variable redResFloatingFunction. Index = redResFloatingGroupIndex redResFloatingElementIndex
+# sub ids in the instance are = n.n
+redResFloatingFunction.1.1    , Integer       , RO , fixed(1)
+redResFloatingFunction.1.2    , Integer       , RO , fixed(1)
+# columnar variable redResFloatingSwitchMode. Index = redResFloatingGroupIndex redResFloatingElementIndex
+# sub ids in the instance are = n.n
+redResFloatingSwitchMode.1.1  , Integer       , RO , fixed(4)
+redResFloatingSwitchMode.1.2  , Integer       , RO , fixed(4)
+# columnar variable redResFloatingMirroredElementIndex. Index = redResFloatingGroupIndex redResFloatingElementIndex
+# sub ids in the instance are = n.n
+redResFloatingMirroredElementIndex.1.1, Gauge         , RW , lastset(1000)
+redResFloatingMirroredElementIndex.1.2, Gauge         , RW , lastset(1000)
+# columnar variable redResFloatingBackupElementIndex. Index = redResFloatingGroupIndex redResFloatingElementIndex
+# sub ids in the instance are = n.n
+redResFloatingBackupElementIndex.1.1, Gauge         , RW , lastset(1000)
+redResFloatingBackupElementIndex.1.2, Gauge         , RW , lastset(1000)
+# columnar variable redResFloatingSwitchCommand. Index = redResFloatingGroupIndex redResFloatingElementIndex
+# sub ids in the instance are = n.n
+redResFloatingSwitchCommand.1.1, Integer       , RW , r_lastset(1, 1, 1)
+redResFloatingSwitchCommand.1.2, Integer       , RW , r_lastset(1, 1, 1)
+# columnar variable redResFloatingPriority. Index = redResFloatingGroupIndex redResFloatingElementIndex
+# sub ids in the instance are = n.n
+redResFloatingPriority.1.1    , Gauge         , RO , random(1000, 100)
+redResFloatingPriority.1.2    , Gauge         , RO , random(1000, 100)
+# columnar variable redResSwitchSourceGroupIndex. Index = redResSwitchSourceGroupIndex redResSwitchSourceElementIndex
+# sub ids in the instance are = n.n
+redResSwitchSourceGroupIndex.1.1, Gauge         , RO , fixed(1)
+redResSwitchSourceGroupIndex.1.2, Gauge         , RO , fixed(1)
+# columnar variable redResSwitchSourceElementIndex. Index = redResSwitchSourceGroupIndex redResSwitchSourceElementIndex
+# sub ids in the instance are = n.n
+redResSwitchSourceElementIndex.1.1, Gauge         , RO , fixed(1)
+redResSwitchSourceElementIndex.1.2, Gauge         , RO , fixed(2)
+# columnar variable redResSwitchSourceRedundancyStatus. Index = redResSwitchSourceGroupIndex redResSwitchSourceElementIndex
+# sub ids in the instance are = n.n
+redResSwitchSourceRedundancyStatus.1.1, Integer       , RO , fixed(1)
+redResSwitchSourceRedundancyStatus.1.2, Integer       , RO , fixed(1)
+# columnar variable redResSwitchSourceFunction. Index = redResSwitchSourceGroupIndex redResSwitchSourceElementIndex
+# sub ids in the instance are = n.n
+redResSwitchSourceFunction.1.1, Integer       , RO , fixed(1)
+redResSwitchSourceFunction.1.2, Integer       , RO , fixed(1)
+# columnar variable redResSwitchSourceSwitchMode. Index = redResSwitchSourceGroupIndex redResSwitchSourceElementIndex
+# sub ids in the instance are = n.n
+redResSwitchSourceSwitchMode.1.1, Integer       , RO , fixed(4)
+redResSwitchSourceSwitchMode.1.2, Integer       , RO , fixed(4)
+# columnar variable redResSwitchSourceMirroredElementIndex. Index = redResSwitchSourceGroupIndex redResSwitchSourceElementIndex
+# sub ids in the instance are = n.n
+redResSwitchSourceMirroredElementIndex.1.1, Gauge         , RO , random(1000, 100)
+redResSwitchSourceMirroredElementIndex.1.2, Gauge         , RO , random(1000, 100)
+# columnar variable redResSwitchSourceBackupElementIndex. Index = redResSwitchSourceGroupIndex redResSwitchSourceElementIndex
+# sub ids in the instance are = n.n
+redResSwitchSourceBackupElementIndex.1.1, Gauge         , RW , lastset(1000)
+redResSwitchSourceBackupElementIndex.1.2, Gauge         , RW , lastset(1000)
+# columnar variable redResSwitchSourceSwitchCommand. Index = redResSwitchSourceGroupIndex redResSwitchSourceElementIndex
+# sub ids in the instance are = n.n
+redResSwitchSourceSwitchCommand.1.1, Integer       , RW , r_lastset(1, 1, 1)
+redResSwitchSourceSwitchCommand.1.2, Integer       , RW , r_lastset(1, 1, 1)

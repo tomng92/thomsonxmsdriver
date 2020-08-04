@@ -1,0 +1,20 @@
+<project name="make-Thomson-js" default="full" basedir=".">
+<target name="full">
+    <property name="myFilename" value="Thomson_XMS3500_WALKED.js"/>
+    <echo message="Creating file ${basedir}/${myFilename}"/>
+    <concat destfile="${basedir}/${myFilename}">
+        <filelist dir="${basedir}">
+            <file name="src/header.js" />
+            <file name="src-walkreader/walkReader.js" />
+            <file name="src-walkreader/Walk-on-Remote.js" />
+            <file name="src/utilities.js" />
+            <file name="src/deviceTypes.js" />
+            <file name="src/thomsonAlarms.js" />
+            <file name="src/alarmStacks.js" />
+	        <file name="src/topoReader.js" />
+	        <file name="src/thomsonMain.js" />
+	    </filelist>
+
+    </concat>
+</target>
+</project>

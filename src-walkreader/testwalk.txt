@@ -1,0 +1,27 @@
+[>> -- Start of walk
+
+pncPlatformStatus.0:-->12345
+numberOfSignals.0:-->2
+
+[>> -------------------------------------------------------------
+[>> START BAG_A -- This is the bag of variables that will be loaded at point T2 
+signalName.1:-->Signal 1 of BAG_A
+signalName.2:-->Signal 2 of BAG_A
+someVariable.22.33.44.55.1:-->value_11
+someVariable.22.33.44.55.2:-->value_22
+[>> END
+
+[>> -------------------------------------------------------------
+[>> START BAG_B extends BAG_A  -- This is the bag of variables that will be loaded at point T2 
+signalSummary.2:-->0
+signalName.2:-->Signal 2 of BAG_B
+[>> END 
+
+[>> -------------------------------------------------------------
+[>> START     BAG_C extends BAG_A -- This is the bag extends BAG_A
+[>> -- This is the only thing that changed
+signalMajorAlarmDevices.2:-->abc
+dummy.1:-->xxx
+[>> --dummy.1:-->yyy
+[>> END
+

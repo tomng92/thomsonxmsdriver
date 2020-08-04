@@ -1,0 +1,193 @@
+
+======================================================================
+EM4000
+  Note: resource preconfigured.
+  How to correlate alarms ?
+     - Alarms resourceId are like: " ENC1/VBI" -> extract the ENC part.
+     - If we see this: "PSU_2" -> associate to device itself.
+  
+  8 encoders: ENC1 -> 8
+  
+=======================================================================
+MULtiplexer:
+   
+   I don't know how to correlate????
+   
+   
+    WJCT_TS 597
+    KERA_TS 2803
+    WEDU_TS 705
+    WPBT_TS 627
+    WTTW_TS 1007
+
+==================================================================
+Amethyst 
+
+The child resources are origin themselves. So no problem to correlate.
+
+genAlarmResourceId.13.87.74.67.84.95.83.97.112.112.104.105.114.101.329:-->Playout source --> asi://0/0/IN
+
+
+    NOC_Amethyst_01_IpSwitch1
+    NOC_Amethyst_01_IpSwitch2
+    NOC_Amethyst_01_IpSwitch3
+    NOC_Amethyst_01_IpSwitch4
+    NOC_Amethyst_01_IpSwitch5
+    NOC_Amethyst_01_IpSwitch6
+    NOC_Amethyst_01_IpSwitch7
+    NOC_Amethyst_01_IpSwitch8
+
+================================================================
+CP6000
+
+ Notes: the enc/dec for CP6000 are configured as origin too !!!
+ 
+ Theory: Use the type & extype to decide: 
+
+
+NOC_CP6000_01   10.1.114.31 
+        NOC_CP6000_01_mpeg_dec_01
+        NOC_CP6000_01_mpeg_dec_02
+        NOC_CP6000_01_mpeg_dec_03
+        NOC_CP6000_01_mpeg_dec_04
+NOC_CP6000_02   10.1.114.32 
+        NOC_CP6000_02_mpeg_dec_01
+        NOC_CP6000_02_mpeg_dec_02
+        NOC_CP6000_02_mpeg_dec_03
+        NOC_CP6000_02_mpeg_dec_04
+NOC_CP6000_03   10.1.114.33 
+        NOC_CP6000_03_mpeg_enc_01
+        NOC_CP6000_03_mpeg_enc_02
+        NOC_CP6000_03_mpeg_enc_03
+        NOC_CP6000_03_mpeg_enc_04
+NOC_CP6000_BU   10.1.114.34 
+        NOC_CP6000_BU_mpeg_dec_03
+        NOC_CP6000_BU_mpeg_enc_04
+
+=========================================
+Nevion Switch
+   resource is configured as Origin, so no problem to correlate
+   
+
+
+                                                                     Need            Need
+Device Types                                                        KeyAlarms   AlarmResourceMapping
+
+topoElementType.22:-->2      1        NOC_MUX_BU
+topoElementType.23:-->2      1        NOC_MUX_02
+topoElementType.25:-->2      1        NOC_MUX_01
+
+topoElementType.20:-->4      5        NOC_XMU
+
+topoElementType.21:-->12     7        NOC_NVision_Router                  X           X
+topoElementType.9:--> 12     25       NOC_Amethyst_01_SwitchIp2                      
+topoElementType.10:-->12     25       NOC_Amethyst_01_SwitchIp1                      
+topoElementType.11:-->12     25       NOC_Amethyst_01_SwitchIp4                      
+topoElementType.12:-->12     25       NOC_Amethyst_01_SwitchIp3                      
+topoElementType.13:-->12     25       NOC_Amethyst_01_SwitchIp5                      
+topoElementType.32:-->12     29       NOC_Nevion_Switch                   X           X
+topoElementType.33:-->12     32       Nevion_Switch1                      X            
+
+topoElementType.6:--> 13     0        NOC_IP_SWITCH_MAIN                  X           X
+topoElementType.7:--> 13     0        NOC_FSYNC                           X           X
+topoElementType.34:-->13     0        NOC_IP_SWITCH_BU                    X           X
+topoElementType.35:-->13     0        NOC_FS_MILW_XVP                     X           X
+topoElementType.26:-->13     1        NOC_RTR_SRC                         X           X
+
+topoElementType.27:-->16     9        NOC_EM4000_02
+topoElementType.28:-->16     9        NOC_EM4000_01
+topoElementType.29:-->16     9        NOC_EM4000_04
+topoElementType.30:-->16     9        NOC_EM4000_03
+topoElementType.31:-->16     9        NOC_EM4000_BU
+topoElementType.24:-->16     9        NOC_EM4000_05
+
+topoElementType.16:-->22     4        WJCT_Sapphire                                    X
+
+topoElementType.1:--> 95     1        NOC_CP6000_01                       X
+topoElementType.17:-->95     1        NOC_CP6000_BU
+topoElementType.14:-->95     1        WJCT_CP6000
+topoElementType.36:-->95     1        NOC_CP6000_03
+topoElementType.40:-->95     1        NOC_CP6000_02
+topoElementType.15:-->95     4        WJCT_CP6000_mpeg_enc_04
+topoElementType.18:-->95     4        NOC_CP6000_BU_mpeg_enc_04
+topoElementType.37:-->95     4        NOC_CP6000_03_mpeg_enc_04
+topoElementType.38:-->95     4        NOC_CP6000_03_mpeg_enc_03
+topoElementType.39:-->95     4        NOC_CP6000_03_mpeg_enc_02
+topoElementType.2:--> 95     5        NOC_CP6000_01_mpeg_dec_02
+topoElementType.3:--> 95     5        NOC_CP6000_01_mpeg_dec_01
+topoElementType.4:--> 95     5        NOC_CP6000_01_mpeg_dec_04
+topoElementType.5:--> 95     5        NOC_CP6000_01_mpeg_dec_03
+topoElementType.41:-->95     5        NOC_CP6000_02_mpeg_dec_04
+topoElementType.42:-->95     5        NOC_CP6000_02_mpeg_dec_03
+topoElementType.43:-->95     5        NOC_CP6000_02_mpeg_dec_02
+topoElementType.19:-->95     5        NOC_CP6000_BU_mpeg_dec_03
+
+topoElementType.8:--> 96     1        NOC_Amethyst_01                    X
+
+============
+
+      Type  extType      example device                   Need         Need
+                                                      KeyAlarms  AlarmSubdeviceMapping
+        12     7        NOC_NVision_Router                  X           X
+        12     29       NOC_Nevion_Switch                   X           X
+        12     32       Nevion_Switch1                      X          (1)
+        13     0        NOC_IP_SWITCH_MAIN                  X           X
+        13     1        NOC_RTR_SRC                         X           X
+        22     4        WJCT_Sapphire                      (2)          X
+        95     1        NOC_CP6000_01                       X          (1)
+
+
+
+   (1)   we don't need alarm subdevice mapping because
+         subdevices have their own origin id
+
+   (2)   already provided
+
+
+=============
+
+      XMS
+        +---XMU_1
+             +---Health
+             |     +---Hardware Failure
+             +---Signal
+             |     +---Broadcast channel Failure
+             |     +---Connection Establishment failure
+             +---OtherAlarms (Non-key)
+             |     +---Major
+             |     +---Warning
+             |     +---Notice
+             +---SubDevices
+                   +---NOC_Amethyst_01
+                   |    +---Health
+                   |    |      +---TR 101 First priority error
+                   |    |      +---High temperature
+                   |    +---Signal
+                   |    |      +---Connection Establishment failure
+                   |    |      +---No stream received
+                   |    +---Uncategorized
+                   |    |      +---Major
+                   |    |      +---Warning
+                   |    |      +---Notice
+                   |    +---SubDevices
+                   |           +---IpSwitch1
+                   |           |    +---Health
+                   |           |    +---Signal
+                   |           |         +---Signal Loss
+                   |           |         +---No stream received
+                   |           +---IpSwitch2
+                   |           +---...
+                   |           +---IpSwitch8
+                   |                +---Health
+                   |                +---Signal
+                   +---NOC_EM4000_01
+                   |    +---Health
+                   |    +---Signal
+                   |    +---OtherAlarms (Non-key)
+                   |    +---SubDevices
+                   |         +---ENC1
+                   |         +---...
+                   |         +---ENC8
+                   +---NOC_EM4000_02
+                        +---...
+   

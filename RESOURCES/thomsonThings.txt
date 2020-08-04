@@ -1,0 +1,73 @@
+Thomson XMS
+=============
+Questions:
+  - How to represent alarms ?
+  - Should we use representation model 1,2,3 or combination of them
+  - Can we use poll the XMS to know about topology ?
+  - Can
+   
+
+Device families:
+  - Supervision System (example: XMS)
+  - Mediation Unit( example: XMU)
+  - Uncategorized (example: EM4008
+  - Server (example: Sapphire)
+  - Switch/Router (ex: Amethyst IP, Amethyst ASI)
+  - Transport Stream Multiplexor
+
+Type of devices
+  - XMS (8/14)
+  - XMU (14/34)
+  - EM4008 (16/45)
+  - SAPPHIRE (3/3)
+  - AMETHYST IP (7/23)
+  - AMETHYST ASI (11/25)
+  - NETPROCESSOR 9030 AT NOC (20/103)
+  - NETPROCESSOR 9040 AT SPOKE (20/105)
+  - CP6000 (19/40)
+
+Alarm categories:
+  1. Communications
+  2. QoS
+  3. Processing error
+  4. Equipment
+  5. Environmental
+
+
+  
+  Alarms hierarchy
+ |
+ +--Health alarms
+ +--Signal Alarms
+ +----- Disk Failure
+ +----- Loss Of Synchronization
+ 
+ Each device has alarms, and has 'resources' attached to it.
+ Resources have their own alarms.
+ The alarm representation per device could be:
+ 
+          
+   NFP248
+     +--NFP248-Instance1
+         +-- configuration
+         +-- health
+         +-- ASI in 1
+              +-- loss of signal
+              +-- no stream received
+         +-- LAN/WAN 1
+              +--Link down
+              ...
+              
+     +--NFP248-Instance2
+         +-- configuration
+         +-- health
+         +-- ASI in 1
+              +-- loss of signal
+              +-- no stream received
+         +-- LAN/WAN 1
+              +--Link down
+              ...
+  
+If there are several instance of a device, it will be like this:
+
+  

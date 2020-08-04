@@ -1,0 +1,22 @@
+<project name="make-Thomson-TEST-WALK-js" default="full" basedir=".">
+<target name="fulltest-file">
+    <property name="myFilename" value="Thomson_XMS3500_TESTWALKED.js"/>
+    <echo message="Creating file ${basedir}/out/${myFilename}"/>
+    <concat destfile="${basedir}/out/${myFilename}">
+        <filelist dir="${basedir}">
+            <file name="lib/mockObjects.js" />
+            <file name="lib/genericMock.js" />
+            <file name="src/header.js" />
+            <file name="src-walkreader/walkReader.js" />
+            <file name="src-walkreader/Walk-on-Remote.js" />
+            <file name="src/utilities.js" />
+            <file name="src/deviceTypes.js" />
+            <file name="src/thomsonAlarms.js" />
+            <file name="src/alarmStacks.js" />
+	        <file name="src/topoReader.js" />
+	        <file name="src/thomsonMain.js" />
+	    </filelist>
+
+    </concat>
+</target>
+</project>
